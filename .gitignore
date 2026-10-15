@@ -1,0 +1,20 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/
+data/interim/
+data/processed/
+data/media/
+data/cache/
+mlruns/
+mlartifacts/
+logs/
+*.mp4
+*.m4a
+*.wav
+# instruções e referências do Claude (não são documentação do projeto)
+CLAUDE.md
+ref/

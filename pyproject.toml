@@ -1,0 +1,51 @@
+[project]
+name = "parallax"
+version = "0.1.0"
+description = "Parallax: previsão de performance de Shorts antes da publicação (Inteli Academy x Galaxies)"
+readme = "README.md"
+authors = [
+    { name = "Fernanda Helena L Bezerra", email = "fernanda.bezerra@sou.inteli.edu.br" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "deno>=2.9.7",
+    "easyocr>=1.7.2",
+    "faster-whisper==1.2.1",
+    "fastmcp==3.4.7",
+    "google-api-python-client==2.200.0",
+    "google-genai==2.25.0",
+    "httpx==0.28.1",
+    "isodate==0.7.2",
+    "langchain==1.4.2",
+    "langchain-core==1.6.5",
+    "langchain-google-genai>=4.4.0",
+    "langchain-mcp-adapters==0.3.2",
+    "langgraph==1.2.12",
+    "lightgbm==4.7.0",
+    "mapie==1.5.0",
+    "mcp==1.30.0",
+    "mediapipe==1.0.1",
+    "mlflow==3.16.1",
+    "numpy==2.5.3",
+    "opencv-python-headless==5.0.0.93",
+    "optuna==5.0.0",
+    "pandas==3.0.6",
+    "pandera==0.33.1",
+    "pyarrow==25.0.1",
+    "pydantic==2.13.5",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.4",
+    "scenedetect==0.7.1",
+    "scikit-learn==1.9.1",
+    "scipy==1.18.1",
+    "sentence-transformers==6.1.0",
+    "shap==0.52.0",
+    "tenacity==9.1.4",
+    "torch==2.14.0",
+    "transformers==5.17.0",
+    "yt-dlp[default]==2026.8.19",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
