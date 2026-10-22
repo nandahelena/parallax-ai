@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🔭 Como o Parallax funciona
+<img src="assets/logo.svg" width="72" alt="">
+
+# Como o Parallax funciona
 
 **Documentação técnica do fluxo, da coleta à resposta da tool.**
 

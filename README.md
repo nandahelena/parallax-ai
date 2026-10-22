@@ -1,13 +1,15 @@
 <div align="center">
 
-# 🔭 Parallax
+<img src="docs/assets/logo.svg" width="104" alt="">
+
+# Parallax
 
 ### Quantas curtidas este Short vai ter? Pergunte **antes** de publicar.
 
 Modelo preditivo + agente, entregues como tool (função Python e servidor MCP) para a persona sintética da Galaxies.
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](pyproject.toml)
-[![LightGBM](https://img.shields.io/badge/LightGBM-4.7-02569B?logo=leaflet&logoColor=white)](scripts/07_treinar.py)
+[![LightGBM](https://img.shields.io/badge/LightGBM-4.7-9ACD32)](scripts/07_treinar.py)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1C3C3C)](src/parallax/agent/graph.py)
 [![MCP](https://img.shields.io/badge/MCP-FastMCP%203.4-6E40C9)](src/parallax/mcp_server.py)
 [![Testes](https://img.shields.io/badge/testes-14%20passando-2ea44f?logo=pytest&logoColor=white)](tests/)
