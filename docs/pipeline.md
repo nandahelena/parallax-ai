@@ -6,7 +6,7 @@
 
 **Documentação técnica do fluxo, da coleta à resposta da tool.**
 
-[Visão geral](#1-visão-geral) · [Pipeline offline](#2-pipeline-offline-dados--modelo) · [Fluxo online](#3-fluxo-online-a-tool-respondendo) · [As 5 tools](#4-as-5-tools-por-dentro) · [Decisões](#5-decisões-de-projeto-e-o-porquê) · [Números](#6-números-de-referência)
+[Visão geral](#1-visão-geral) · [Pipeline offline](#2-pipeline-offline-dados--modelo) · [Fluxo online](#3-fluxo-online-a-tool-respondendo) · [As 5 tools](#4-as-5-tools-por-dentro) · [Como rodar](#7-as-três-portas-de-entrada) · [Decisões](#5-decisões-de-projeto-e-o-porquê) · [Números](#6-números-de-referência)
 
 </div>
 
@@ -27,7 +27,8 @@ flowchart TB
     end
     subgraph ON ["⚡ ONLINE — roda a cada criativo, em segundos"]
         direction LR
-        B1["Criativo + legenda<br/>+ data + canal"] --> B2["Agente LangGraph"]
+        B1["Criativo + legenda<br/>+ data + canal"] --> B0{{"3 portas:<br/>MCP · função · Streamlit"}}
+        B0 --> B2["Agente LangGraph"]
         B2 --> B3["Previsão + intervalo<br/>+ ranking + explicação"]
     end
     A5 -.->|"modelo treinado é carregado como artefato"| B2
@@ -177,5 +178,42 @@ O agente é um grafo **determinístico**: a ordem das tools não depende do humo
 - **Camada multimodal:** 2.049 vídeos processados · Spearman intra-canal 0,132 → **0,230**
 - **Cota usada:** ~2.400 de 10.000 unidades/dia da YouTube API
 - **Custo:** zero. Tudo em free tier e CPU local
+
+## 7. As três portas de entrada
+
+A mesma função responde às três. Nenhuma delas calcula nada por conta própria.
+
+| Porta | Para quem | Comando |
+|---|---|---|
+| **Servidor MCP** | A persona da Galaxies e outros agentes. **É a entrega obrigatória do TAPI** | `uv run python src/parallax/mcp_server.py` |
+| **Função Python** | Notebooks, scripts e pipelines | `from parallax.inference import prever_criativo` |
+| **Interface Streamlit** | Demonstrar para pessoas (opcional no TAPI) | `uv run streamlit run app.py` |
+
+```mermaid
+flowchart LR
+    MCP["Servidor MCP<br/><small>persona · Inspector</small>"] --> API
+    PY["Função Python<br/><small>notebook · script</small>"] --> API
+    ST["Streamlit<br/><small>app.py</small>"] --> API
+    API["prever_criativo()<br/>ranquear_criativos()<br/>simular_what_if()"] --> AG["Agente LangGraph<br/>T1 → T3 → T2 → T4 → T5"]
+    AG --> GBM[("models/v1")]
+```
+
+### O que a interface mostra
+
+Pensada para a apresentação: os **9 canais de demonstração** (nunca vistos no treino) já vêm carregados com histórico e curtidas reais, o que permite mostrar o **de-para** ao vivo.
+
+| Elemento | Para que serve na demo |
+|---|---|
+| Tabela editável de criativos | Testar legendas na hora, com 1 ou vários criativos |
+| Ranking + P(1º > 2º) | A decisão que o cliente precisa tomar |
+| Previsão, intervalo e "× o canal" | O número com a margem de erro declarada |
+| Curtidas reais → "dentro do intervalo ✓" | Prova de que a previsão se sustenta |
+| Fatores que pesaram e comparáveis | A evidência por trás do número |
+| Interruptor "analisar o vídeo" | Mostra o agente processando o Short de verdade |
+| Trilha do agente no rodapé | Deixa visível que as 5 tools rodaram, e em que ordem |
+
+> A primeira previsão leva ~1 min (carrega os modelos); as seguintes são imediatas. **Faça uma previsão antes de começar a gravar.**
+
+---
 
 Detalhes: [data card](data_card.md) · [model card](model_card.md) · [relatório](experiment_report.md) · [resultados](resultados/)

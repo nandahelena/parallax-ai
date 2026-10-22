@@ -12,6 +12,7 @@ Modelo preditivo + agente, entregues como tool (função Python e servidor MCP) 
 [![LightGBM](https://img.shields.io/badge/LightGBM-4.7-9ACD32)](scripts/07_treinar.py)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1C3C3C)](src/parallax/agent/graph.py)
 [![MCP](https://img.shields.io/badge/MCP-FastMCP%203.4-6E40C9)](src/parallax/mcp_server.py)
+[![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)](app.py)
 [![Testes](https://img.shields.io/badge/testes-14%20passando-2ea44f?logo=pytest&logoColor=white)](tests/)
 [![Custo](https://img.shields.io/badge/custo-zero%20%C2%B7%20free%20tier-2ea44f)](#instala%C3%A7%C3%A3o-e-execu%C3%A7%C3%A3o)
 
@@ -38,6 +39,7 @@ Modelo preditivo + agente, entregues como tool (função Python e servidor MCP) 
 | **Momento da previsão** | Antes da publicação. Usa só o criativo, a legenda, a data planejada e o histórico do canal |
 | **Alvo** | Curtidas, em escala log e relativas à mediana dos 20 Shorts anteriores do canal. Views foram descartadas porque a contagem de Shorts mudou em 31/03/2025 e em 24/08/2026 |
 | **Setores** | Moda, beleza e automotivo |
+| **Interfaces** | Servidor MCP e função Python (obrigatórios no TAPI) e um app Streamlit opcional para demonstrar |
 | **Critério de sucesso** | Superar o baseline "mediana histórica do canal" em validação temporal, com foco em **ordenar certo os criativos de um mesmo canal** (meta: acurácia par a par ≥ 60%), e entregar um intervalo de 80% calibrado |
 
 **Princípio central:** o número sempre vem de um modelo estatístico treinado e avaliado (LightGBM). O LLM orquestra e explica, mas **nunca estima a métrica**. Um teste automatizado garante que o número da tool é o número do modelo, e um validador determinístico reprova explicações que citem números ou fatores fora do JSON do modelo.
@@ -62,6 +64,7 @@ Funil, esquema, termos de uso, o que a base **não** representa e vieses: [docs/
 ```mermaid
 flowchart LR
     P["Persona Galaxies<br/>(cliente MCP)"] -->|criativo + legenda + data + canal + setor| M["Servidor MCP<br/>prever · ranquear · what-if"]
+    U["Pessoa<br/>(Streamlit, opcional)"] --> M
     M --> A["Agente LangGraph"]
     A --> T1["T1 extrair atributos<br/>(histórico, tempo, texto, mídia)"]
     T1 --> T3["T3 prever<br/>LightGBM + quantis + conformal"]
@@ -86,16 +89,19 @@ flowchart LR
 | `agent/graph.py` | StateGraph LangGraph que chama as tools e guarda a trilha de cada passo |
 | `explain/` | Validador determinístico e subagente explicador (Gemini) |
 | `mcp_server.py` | Servidor MCP (FastMCP) que expõe o agente |
+| `app.py` | Interface Streamlit opcional; só embrulha `prever_criativo()` |
 
 **O número vem do modelo, não do LLM.** O LLM só aparece na T4, e o texto dele passa pelo validador.
 
 ## Instalação e execução
 
-Pré-requisitos: Windows, macOS ou Linux, [uv](https://docs.astral.sh/uv/) e Node 18+ (só para o MCP Inspector).
+Pré-requisitos: Windows, macOS ou Linux, [uv](https://docs.astral.sh/uv/) e Node 18+ (só para o MCP Inspector). Sem GPU: tudo roda em CPU.
 
 ```bash
 uv sync
 ```
+
+> **Se o `uv` não for encontrado:** com o ambiente do projeto ativo, o prefixo `uv run` é dispensável — rode o comando direto (`streamlit run app.py`, `pytest`, `python scripts/...`). Fora do ambiente, use o caminho completo: `.venv/Scripts/python.exe -m streamlit run app.py` (Windows) ou `.venv/bin/python -m ...` (Linux/macOS).
 
 ```bash
 cp .env.example .env
@@ -119,6 +125,14 @@ r = prever_criativo(PredictionRequest(
 ))
 print(r.predicted_metric, r.interval_low, r.interval_high, r.explanation)
 ```
+
+**Interface visual** (opcional, útil para demonstrar):
+
+```bash
+uv run streamlit run app.py
+```
+
+Abre em `localhost:8501`. Traz os 9 canais de demonstração já carregados com histórico e métrica real, permite editar as legendas candidatas, e mostra previsão, intervalo, ranking, fatores, comparáveis e a trilha do agente. É só uma casca sobre `prever_criativo()`: nenhum número é calculado nela.
 
 **Servidor MCP** (stdio):
 
@@ -159,6 +173,7 @@ uv run pytest
 
 ```
 parallax/
+├── app.py                     # interface Streamlit (opcional)
 ├── src/parallax/              # o pacote
 │   ├── schemas.py             # contrato Pydantic (entrada e saída da tool)
 │   ├── inference.py           # API principal: as 5 tools + ranking + what-if
@@ -225,6 +240,10 @@ parallax/
 - **Inscritos "de hoje"**: a API só dá o número atual, não o da data do post. O modelo se apoia no histórico de curtidas, que é correto no tempo.
 - **Camada multimodal medida, mas não integrada ao número**: melhora o Spearman intra-canal (+0,10, significativo), não a acurácia par a par; a thumbnail usada no treino não existe antes da publicação de um criativo novo, o que impediria a paridade treino/inferência. Extraída em um subconjunto de ~2 mil vídeos, por limite de CPU (sem GPU) e da cota diária do VLM.
 - **Uso indevido**: a previsão é um apoio à decisão, não uma garantia. Não usar para canais sem histórico de Shorts, outras plataformas ou decisões automáticas sem revisão humana.
+
+## Apresentação
+
+Roteiro do vídeo de entrega, cena a cena: [docs/roteiro_video.md](docs/roteiro_video.md).
 
 ## Próximos passos (com mais 4 semanas)
 

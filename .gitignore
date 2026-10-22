@@ -29,3 +29,4 @@ logs/
 # instruções e referências do Claude (não são documentação do projeto)
 CLAUDE.md
 ref/
+.claude/

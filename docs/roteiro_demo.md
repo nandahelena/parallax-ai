@@ -1,9 +1,14 @@
-# Roteiro da demonstração (5–7 min)
+# Roteiro da demonstração ao vivo (5–7 min)
+
+> Para **gravar o vídeo de entrega**, use [roteiro_video.md](roteiro_video.md), que é cena a cena. Este aqui é para apresentar ao vivo, com perguntas.
 
 > 📖 **Apoio visual:** abra [pipeline.md](pipeline.md) — tem os diagramas do fluxo offline, do fluxo online e da sequência das 5 tools, prontos para mostrar na tela.
 
 **Antes de começar**
 - Terminal aberto na pasta do projeto, `uv sync` feito, `.env` preenchido.
+- Interface aberta: `uv run streamlit run app.py` (canal de demonstração já carregado).
+
+> **Se o `uv` não for encontrado:** com o ambiente do projeto ativo, o prefixo `uv run` é dispensável — rode o comando direto (`streamlit run app.py`, `pytest`, `python scripts/...`). Fora do ambiente, use o caminho completo: `.venv/Scripts/python.exe -m streamlit run app.py` (Windows) ou `.venv/bin/python -m ...` (Linux/macOS).
 - MCP Inspector aberto: `npx @modelcontextprotocol/inspector uv run python src/parallax/mcp_server.py`.
 - Plano B à mão: `demo/respostas/*.json`, `docs/resultados/demo.md` e o vídeo gravado.
 
@@ -33,7 +38,7 @@
 
 ### 3:00 — Ao vivo: 3 criativos de um canal nunca visto (90 s)
 - Usar um canal de demo, por exemplo **Rivian** ou **Ralph Lauren**.
-- Chamar `ranquear_criativos` com 3 Shorts recentes.
+- Na interface (ou via `ranquear_criativos`), prever os 4 Shorts mais recentes de uma vez.
 - Mostrar, nesta ordem:
   1. previsão;
   2. intervalo;
