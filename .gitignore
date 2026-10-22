@@ -1,20 +1,31 @@
-.env
+# ambiente
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 .ipynb_checkpoints/
+
+# segredos
+.env
+
+# dados gerados pelos scripts (regeneráveis: ver README → "Reproduzir do zero")
 data/raw/
 data/interim/
 data/processed/
 data/media/
 data/cache/
-mlruns/
-mlartifacts/
-logs/
+
+# mídia baixada (nunca redistribuída)
 *.mp4
 *.m4a
 *.wav
+
+# experimentos e logs
+mlruns/
+mlartifacts/
+mlflow.db
+logs/
+
 # instruções e referências do Claude (não são documentação do projeto)
 CLAUDE.md
 ref/

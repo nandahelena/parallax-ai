@@ -1,0 +1,669 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/humAJb3-C_w",
+      "predicted_metric": 183.1,
+      "interval_low": 31.2,
+      "interval_high": 401.9,
+      "relative_to_channel": 3.56
+    },
+    {
+      "posicao": 2,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/VXiHQOXr4_M",
+      "predicted_metric": 133.3,
+      "interval_low": 24.6,
+      "interval_high": 333.0,
+      "relative_to_channel": 2.59
+    },
+    {
+      "posicao": 3,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/mLkAwEwSeJE",
+      "predicted_metric": 96.5,
+      "interval_low": 24.9,
+      "interval_high": 253.7,
+      "relative_to_channel": 1.88
+    },
+    {
+      "posicao": 4,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/FKuwMbL3Jqs",
+      "predicted_metric": 81.2,
+      "interval_low": 24.8,
+      "interval_high": 238.2,
+      "relative_to_channel": 1.59
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.589,
+  "previsoes": [
+    {
+      "predicted_metric": 96.5,
+      "interval_low": 24.9,
+      "interval_high": 253.7,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.88,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.385
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.229
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "aumenta",
+          "weight": 0.192
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.129
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.092
+        }
+      ],
+      "explanation": "Previsão de ~96 curtidas em 60 dias (intervalo de 80%: 25 a 254), 1,88× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); desempenho do post anterior (reduz); tendência recente do canal (aumenta).",
+      "comparables": [
+        {
+          "post_id": "Yb6YeFzqIrU",
+          "url": "https://www.youtube.com/shorts/Yb6YeFzqIrU",
+          "title": "Poros disfarçados e pele uniforme",
+          "likes": 2,
+          "relative_to_channel": 1.0,
+          "similarity": 0.708
+        },
+        {
+          "post_id": "j2BQ1US4Cvg",
+          "url": "https://www.youtube.com/shorts/j2BQ1US4Cvg",
+          "title": "Reduza manchinhas e poros aparentes",
+          "likes": 3,
+          "relative_to_channel": 1.33,
+          "similarity": 0.696
+        },
+        {
+          "post_id": "ClgZZRqcGtY",
+          "url": "https://www.youtube.com/shorts/ClgZZRqcGtY",
+          "title": "Winter Scalp Routine",
+          "likes": 260,
+          "relative_to_channel": 0.69,
+          "similarity": 0.692
+        },
+        {
+          "post_id": "uIKB71x6Y-0",
+          "url": "https://www.youtube.com/shorts/uIKB71x6Y-0",
+          "title": "Raser les poils du visage?",
+          "likes": 6275,
+          "relative_to_channel": 0.89,
+          "similarity": 0.691
+        },
+        {
+          "post_id": "r1ksDfMq2cw",
+          "url": "https://www.youtube.com/shorts/r1ksDfMq2cw",
+          "title": "Natural Curls or Blowout? Easy 45 Minute Hair Transformations using Fenty Hair ✨",
+          "likes": 1699,
+          "relative_to_channel": 0.82,
+          "similarity": 0.648
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 3.9465994347723043,
+        "ch_mean_prev5": 4.411819168003214,
+        "ch_mean_prev20": 3.8391897977160268,
+        "ch_std_prev20": 0.8528693063827553,
+        "ch_trend": 0.5726293702871876,
+        "ch_last": 3.8501476017100584,
+        "ch_days_since_last": 0.004016203703703704,
+        "ch_posts_30d": 11.0,
+        "ch_log_subs": 12.919024904363686,
+        "ch_log_videos": 6.63200177739563,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 15.0,
+        "tm_weekday": 4.0,
+        "tm_weekend": 0.0,
+        "tm_month": 8.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 72.0,
+        "tx_title_len": 89.0,
+        "tx_title_words": 15.0,
+        "tx_desc_len": 3181.0,
+        "tx_hashtags": 10.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 1.0,
+        "tx_exclaim": 1.0,
+        "tx_upper_ratio": 0.04460541364849409,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 71.53333333333333,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 2.077780246734619,
+        "midia_vd_motion_std": 0.9430109858512878,
+        "midia_vd_brilho": 142.54622016059028,
+        "midia_vd_contraste": 71.00089038329212,
+        "midia_vd_saturacao": 55.39027994791667,
+        "midia_vd_colorfulness": 30.056344503944665,
+        "midia_vd_hue_dom": 0.0,
+        "midia_vd_cortes": 22.0,
+        "midia_vd_cortes_por_s": 0.30754892823858343,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 1.0,
+        "midia_fc_area_max": 0.11673611111111111,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 16.0,
+        "midia_oc_area": 0.034756944444444444,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.0,
+        "midia_au_rms_mean": 0.08477942645549774,
+        "midia_au_rms_std": 0.06306406855583191,
+        "midia_au_silencio": 0.1674808094905792,
+        "midia_au_flatness": 0.3601343035697937,
+        "midia_au_fala_frac": 0.995340167753961,
+        "midia_au_palavras": 216.0,
+        "midia_au_palavras_por_s": 3.0195712954333644,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 0.0,
+        "midia_transcricao": "Si usas plancha, se cadoro se pillo, eso está dañando permanentemente tu cabello. Pero ahora te voy a enseñar cómo recetear eso utilizando este producto de utora. Cuando aplicamos energía al cabello, "
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 183.1,
+      "interval_low": 31.2,
+      "interval_high": 401.9,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 3.56,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.436
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.258
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.248
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.231
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "aumenta",
+          "weight": 0.193
+        }
+      ],
+      "explanation": "Previsão de ~183 curtidas em 60 dias (intervalo de 80%: 31 a 402), 3,56× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); duração do vídeo (aumenta); tema e conteúdo da legenda (aumenta).",
+      "comparables": [
+        {
+          "post_id": "43Ambu29-KY",
+          "url": "https://www.youtube.com/shorts/43Ambu29-KY",
+          "title": "Trying the Freckle Trend with Holy Strokes Micro-Fine Brow Pen",
+          "likes": 1290,
+          "relative_to_channel": 1.35,
+          "similarity": 0.708
+        },
+        {
+          "post_id": "YFWFFJXfrYs",
+          "url": "https://www.youtube.com/shorts/YFWFFJXfrYs",
+          "title": "Wonderskin Lip Stain Transfer Test",
+          "likes": 197,
+          "relative_to_channel": 0.42,
+          "similarity": 0.705
+        },
+        {
+          "post_id": "1LHORs5Uk1E",
+          "url": "https://www.youtube.com/shorts/1LHORs5Uk1E",
+          "title": "We worked hard to get you the best pressed powder...the results speak for themselves.",
+          "likes": 7830,
+          "relative_to_channel": 0.44,
+          "similarity": 0.675
+        },
+        {
+          "post_id": "_iOMylmbcWs",
+          "url": "https://www.youtube.com/shorts/_iOMylmbcWs",
+          "title": "diy liquid eyeshadow hack",
+          "likes": 124,
+          "relative_to_channel": 4.55,
+          "similarity": 0.666
+        },
+        {
+          "post_id": "YuPQEekNYd8",
+          "url": "https://www.youtube.com/shorts/YuPQEekNYd8",
+          "title": "No More Over-Plucking with Holy Strokes Micro-Fine Brow Pen",
+          "likes": 697,
+          "relative_to_channel": 0.76,
+          "similarity": 0.647
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 3.9465994347723043,
+        "ch_mean_prev5": 4.411819168003214,
+        "ch_mean_prev20": 3.8391897977160268,
+        "ch_std_prev20": 0.8528693063827553,
+        "ch_trend": 0.5726293702871876,
+        "ch_last": 3.8501476017100584,
+        "ch_days_since_last": 0.007060185185185185,
+        "ch_posts_30d": 11.0,
+        "ch_log_subs": 12.919024904363686,
+        "ch_log_videos": 6.63200177739563,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 15.0,
+        "tm_weekday": 4.0,
+        "tm_weekend": 0.0,
+        "tm_month": 8.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 121.0,
+        "tx_title_len": 91.0,
+        "tx_title_words": 17.0,
+        "tx_desc_len": 3002.0,
+        "tx_hashtags": 10.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 1.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 1.0,
+        "tx_upper_ratio": 0.05073649754500818,
+        "tx_cta": 1.0,
+        "midia_vd_dur_s": 120.1,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 1.2638026475906372,
+        "midia_vd_motion_std": 1.0321155786514282,
+        "midia_vd_brilho": 144.75244791666668,
+        "midia_vd_contraste": 59.725082494089705,
+        "midia_vd_saturacao": 95.20548502604167,
+        "midia_vd_colorfulness": 57.86592494468361,
+        "midia_vd_hue_dom": 0.0,
+        "midia_vd_cortes": 25.0,
+        "midia_vd_cortes_por_s": 0.20815986677768528,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.75,
+        "midia_fc_area_max": 0.04,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 26.0,
+        "midia_oc_area": 0.017586805555555557,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 2.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 2.0,
+        "midia_au_rms_mean": 0.24791626632213593,
+        "midia_au_rms_std": 0.1492043435573578,
+        "midia_au_silencio": 0.021639617145235122,
+        "midia_au_flatness": 0.33517327904701233,
+        "midia_au_fala_frac": 0.9831806827643631,
+        "midia_au_palavras": 392.0,
+        "midia_au_palavras_por_s": 3.263946711074105,
+        "midia_au_lang_pt": 1.0,
+        "midia_au_lang_en": 0.0,
+        "midia_transcricao": "Seu cabelo está parecendo uma palha velha e cheio de pontas duplas, esquece essa quera tina falsa. Eu sou o proteína pura, quebra o ovo sua medrosa que eu vim para o resgate. Agora me bate com vontade"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 81.2,
+      "interval_low": 24.8,
+      "interval_high": 238.2,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.59,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.356
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.189
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "aumenta",
+          "weight": 0.162
+        },
+        {
+          "factor": "tamanho da descrição",
+          "direction": "aumenta",
+          "weight": 0.07
+        },
+        {
+          "factor": "dias desde o último post",
+          "direction": "reduz",
+          "weight": -0.054
+        }
+      ],
+      "explanation": "Previsão de ~81 curtidas em 60 dias (intervalo de 80%: 25 a 238), 1,59× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); desempenho do post anterior (reduz); tendência recente do canal (aumenta).",
+      "comparables": [
+        {
+          "post_id": "XpHlpS0cgf0",
+          "url": "https://www.youtube.com/shorts/XpHlpS0cgf0",
+          "title": "Até 500 usos por R$ 38,90?",
+          "likes": 317,
+          "relative_to_channel": 2.63,
+          "similarity": 0.779
+        },
+        {
+          "post_id": "eIQJH4c1jKM",
+          "url": "https://www.youtube.com/shorts/eIQJH4c1jKM",
+          "title": "AVON | @JanaTaffarel testa o novo Renew Água Micelar Bifásica",
+          "likes": 62,
+          "relative_to_channel": 1.13,
+          "similarity": 0.775
+        },
+        {
+          "post_id": "j2BQ1US4Cvg",
+          "url": "https://www.youtube.com/shorts/j2BQ1US4Cvg",
+          "title": "Reduza manchinhas e poros aparentes",
+          "likes": 3,
+          "relative_to_channel": 1.33,
+          "similarity": 0.726
+        },
+        {
+          "post_id": "UQDKUNQRKmY",
+          "url": "https://www.youtube.com/shorts/UQDKUNQRKmY",
+          "title": "AVON | NOVO RENEW PLATINUM SÉRUM COM EFEITO PRO",
+          "likes": 54,
+          "relative_to_channel": 1.49,
+          "similarity": 0.694
+        },
+        {
+          "post_id": "YFWFFJXfrYs",
+          "url": "https://www.youtube.com/shorts/YFWFFJXfrYs",
+          "title": "Wonderskin Lip Stain Transfer Test",
+          "likes": 197,
+          "relative_to_channel": 0.42,
+          "similarity": 0.689
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 3.9465994347723043,
+        "ch_mean_prev5": 4.411819168003214,
+        "ch_mean_prev20": 3.8391897977160268,
+        "ch_std_prev20": 0.8528693063827553,
+        "ch_trend": 0.5726293702871876,
+        "ch_last": 3.8501476017100584,
+        "ch_days_since_last": 6.015231481481481,
+        "ch_posts_30d": 11.0,
+        "ch_log_subs": 12.919024904363686,
+        "ch_log_videos": 6.63200177739563,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 16.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 31.0,
+        "tx_title_len": 74.0,
+        "tx_title_words": 15.0,
+        "tx_desc_len": 2020.0,
+        "tx_hashtags": 9.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 1.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.049641148325358854,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 31.0,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 3.406569480895996,
+        "midia_vd_motion_std": 0.9577053189277649,
+        "midia_vd_brilho": 140.78021647135415,
+        "midia_vd_contraste": 40.925497765952514,
+        "midia_vd_saturacao": 75.64858181423611,
+        "midia_vd_colorfulness": 24.05790705631267,
+        "midia_vd_hue_dom": 1.0,
+        "midia_vd_cortes": 32.0,
+        "midia_vd_cortes_por_s": 1.032258064516129,
+        "midia_fc_max": 0.0,
+        "midia_fc_frac_frames": 0.0,
+        "midia_fc_area_max": 0.0,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 35.0,
+        "midia_oc_area": 0.1276736111111111,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 0.5,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 0.5,
+        "midia_au_rms_mean": 0.26688188314437866,
+        "midia_au_rms_std": 0.0723731517791748,
+        "midia_au_silencio": 0.0,
+        "midia_au_flatness": 0.4218142628669739,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 133.3,
+      "interval_low": 24.6,
+      "interval_high": 333.0,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 2.59,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.392
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.254
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "aumenta",
+          "weight": 0.218
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.196
+        },
+        {
+          "factor": "tamanho da descrição",
+          "direction": "aumenta",
+          "weight": 0.071
+        }
+      ],
+      "explanation": "Previsão de ~133 curtidas em 60 dias (intervalo de 80%: 25 a 333), 2,59× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); tema e conteúdo da legenda (aumenta); tendência recente do canal (aumenta).",
+      "comparables": [
+        {
+          "post_id": "eIQJH4c1jKM",
+          "url": "https://www.youtube.com/shorts/eIQJH4c1jKM",
+          "title": "AVON | @JanaTaffarel testa o novo Renew Água Micelar Bifásica",
+          "likes": 62,
+          "relative_to_channel": 1.13,
+          "similarity": 0.8
+        },
+        {
+          "post_id": "YFWFFJXfrYs",
+          "url": "https://www.youtube.com/shorts/YFWFFJXfrYs",
+          "title": "Wonderskin Lip Stain Transfer Test",
+          "likes": 197,
+          "relative_to_channel": 0.42,
+          "similarity": 0.766
+        },
+        {
+          "post_id": "43Ambu29-KY",
+          "url": "https://www.youtube.com/shorts/43Ambu29-KY",
+          "title": "Trying the Freckle Trend with Holy Strokes Micro-Fine Brow Pen",
+          "likes": 1290,
+          "relative_to_channel": 1.35,
+          "similarity": 0.752
+        },
+        {
+          "post_id": "YuPQEekNYd8",
+          "url": "https://www.youtube.com/shorts/YuPQEekNYd8",
+          "title": "No More Over-Plucking with Holy Strokes Micro-Fine Brow Pen",
+          "likes": 697,
+          "relative_to_channel": 0.76,
+          "similarity": 0.745
+        },
+        {
+          "post_id": "XpHlpS0cgf0",
+          "url": "https://www.youtube.com/shorts/XpHlpS0cgf0",
+          "title": "Até 500 usos por R$ 38,90?",
+          "likes": 317,
+          "relative_to_channel": 2.63,
+          "similarity": 0.726
+        },
+        {
+          "post_id": "j2BQ1US4Cvg",
+          "url": "https://www.youtube.com/shorts/j2BQ1US4Cvg",
+          "title": "Reduza manchinhas e poros aparentes",
+          "likes": 3,
+          "relative_to_channel": 1.33,
+          "similarity": 0.726
+        },
+        {
+          "post_id": "_u1M8-McMHw",
+          "url": "https://www.youtube.com/shorts/_u1M8-McMHw",
+          "title": "How to Apply Foundation After Underpainting Ft. m.ph by Mary",
+          "likes": 886,
+          "relative_to_channel": 2.66,
+          "similarity": 0.72
+        },
+        {
+          "post_id": "8rrYJJhEwFs",
+          "url": "https://www.youtube.com/shorts/8rrYJJhEwFs",
+          "title": "The results don’t lie. Revealing our new pressed powder soon.",
+          "likes": 9644,
+          "relative_to_channel": 0.66,
+          "similarity": 0.697
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 3.9465994347723043,
+        "ch_mean_prev5": 4.411819168003214,
+        "ch_mean_prev20": 3.8391897977160268,
+        "ch_std_prev20": 0.8528693063827553,
+        "ch_trend": 0.5726293702871876,
+        "ch_last": 3.8501476017100584,
+        "ch_days_since_last": 13.084699074074074,
+        "ch_posts_30d": 10.0,
+        "ch_log_subs": 12.919024904363686,
+        "ch_log_videos": 6.63200177739563,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 17.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 40.0,
+        "tx_title_len": 70.0,
+        "tx_title_words": 12.0,
+        "tx_desc_len": 1934.0,
+        "tx_hashtags": 9.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 1.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 1.0,
+        "tx_upper_ratio": 0.0491183879093199,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 39.839800000000004,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 29.97002997002997,
+        "midia_vd_motion_mean": 2.8700811862945557,
+        "midia_vd_motion_std": 1.9603005647659302,
+        "midia_vd_brilho": 186.58807020399303,
+        "midia_vd_contraste": 36.84553520058111,
+        "midia_vd_saturacao": 53.212667100694446,
+        "midia_vd_colorfulness": 29.132439077035464,
+        "midia_vd_hue_dom": 1.0,
+        "midia_vd_cortes": 19.0,
+        "midia_vd_cortes_por_s": 0.47691002464871807,
+        "midia_fc_max": 0.0,
+        "midia_fc_frac_frames": 0.0,
+        "midia_fc_area_max": 0.0,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 35.0,
+        "midia_oc_area": 0.18342881944444445,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.0,
+        "midia_au_rms_mean": 0.14275261759757996,
+        "midia_au_rms_std": 0.046068884432315826,
+        "midia_au_silencio": 0.0,
+        "midia_au_flatness": 0.5099632740020752,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/L3vDOH4v7oQ",
+      "predicted_metric": 1899.1,
+      "interval_low": 833.9,
+      "interval_high": 5049.1,
+      "relative_to_channel": 0.93
+    },
+    {
+      "posicao": 2,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/eWGqeCVIyhE",
+      "predicted_metric": 1752.9,
+      "interval_low": 756.4,
+      "interval_high": 5117.4,
+      "relative_to_channel": 0.86
+    },
+    {
+      "posicao": 3,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/a8H_g7_czEM",
+      "predicted_metric": 1514.3,
+      "interval_low": 789.3,
+      "interval_high": 5423.1,
+      "relative_to_channel": 0.74
+    },
+    {
+      "posicao": 4,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/i9oWs02ZIQo",
+      "predicted_metric": 1472.0,
+      "interval_low": 645.5,
+      "interval_high": 5546.3,
+      "relative_to_channel": 0.72
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.531,
+  "previsoes": [
+    {
+      "predicted_metric": 1472.0,
+      "interval_low": 645.5,
+      "interval_high": 5546.3,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.72,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.286
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.128
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.075
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.057
+        },
+        {
+          "factor": "uso de caixa alta",
+          "direction": "reduz",
+          "weight": -0.054
+        }
+      ],
+      "explanation": "Previsão de ~1.472 curtidas em 60 dias (intervalo de 80%: 646 a 5.546), 0,72× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); tema e conteúdo da legenda (reduz); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "R1VMmARIAE4",
+          "url": "https://www.youtube.com/shorts/R1VMmARIAE4",
+          "title": "MAIS ESPAÇO NO SUZUKI JIMNY",
+          "likes": 1029,
+          "relative_to_channel": 0.85,
+          "similarity": 0.744
+        },
+        {
+          "post_id": "e9pEpHX9lWs",
+          "url": "https://www.youtube.com/shorts/e9pEpHX9lWs",
+          "title": "¡Hola Lando! 👋",
+          "likes": 3311,
+          "relative_to_channel": 1.3,
+          "similarity": 0.684
+        },
+        {
+          "post_id": "OuXfNEqionc",
+          "url": "https://www.youtube.com/shorts/OuXfNEqionc",
+          "title": "Howdy Lando 🤠",
+          "likes": 3156,
+          "relative_to_channel": 1.19,
+          "similarity": 0.66
+        },
+        {
+          "post_id": "QTrc8kB-o1w",
+          "url": "https://www.youtube.com/shorts/QTrc8kB-o1w",
+          "title": "VOCÊ FARIA A MESMA COISA",
+          "likes": 325,
+          "relative_to_channel": 0.33,
+          "similarity": 0.652
+        },
+        {
+          "post_id": "1VvXpWpXSAU",
+          "url": "https://www.youtube.com/shorts/1VvXpWpXSAU",
+          "title": "FIAT TORO MHEV | O MOMENTO X O CARRO PERFEITO",
+          "likes": 853,
+          "relative_to_channel": 7.92,
+          "similarity": 0.632
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.62262936367123,
+        "ch_mean_prev5": 7.614272691311314,
+        "ch_mean_prev20": 7.667562361098716,
+        "ch_std_prev20": 0.638490947466198,
+        "ch_trend": -0.053289669787401905,
+        "ch_last": 6.807934943699926,
+        "ch_days_since_last": 0.7512152777777777,
+        "ch_posts_30d": 28.0,
+        "ch_log_subs": 14.363632544508476,
+        "ch_log_videos": 7.804659297056102,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 12.0,
+        "tm_weekday": 4.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 21.0,
+        "tx_title_len": 27.0,
+        "tx_title_words": 5.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 1.0,
+        "tx_upper_ratio": 1.0,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 20.566666666666666,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 2.914118766784668,
+        "midia_vd_motion_std": 1.4180413484573364,
+        "midia_vd_brilho": 114.25213541666668,
+        "midia_vd_contraste": 58.553847682159365,
+        "midia_vd_saturacao": 58.22355523003472,
+        "midia_vd_colorfulness": 40.767452435576516,
+        "midia_vd_hue_dom": 0.0,
+        "midia_vd_cortes": 4.0,
+        "midia_vd_cortes_por_s": 0.19448946515397084,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.375,
+        "midia_fc_area_max": 0.0722265625,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 9.0,
+        "midia_oc_area": 0.018411458333333332,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.5,
+        "midia_au_rms_mean": 0.06889617443084717,
+        "midia_au_rms_std": 0.07021725922822952,
+        "midia_au_silencio": 0.1873479318734793,
+        "midia_au_flatness": 0.28666070103645325,
+        "midia_au_fala_frac": 0.9549432739059968,
+        "midia_au_palavras": 50.0,
+        "midia_au_palavras_por_s": 2.4311183144246353,
+        "midia_au_lang_pt": 1.0,
+        "midia_au_lang_en": 0.0,
+        "midia_transcricao": "Se cala, que auto o prático dura esse carro no prano! Não, não, não sei, nunca va, me entram. É, a plástico, mas é um plástico de boca. Que é, só que você perde para quem? Você vai dormir no carro. Me"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 1899.1,
+      "interval_low": 833.9,
+      "interval_high": 5049.1,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.93,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.264
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.086
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.068
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.042
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.032
+        }
+      ],
+      "explanation": "Previsão de ~1.899 curtidas em 60 dias (intervalo de 80%: 834 a 5.049), 0,93× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); tema e conteúdo da legenda (aumenta); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "SKQW2ephnag",
+          "url": "https://www.youtube.com/shorts/SKQW2ephnag",
+          "title": "O 1.0 MAIS CARO DO BRASIL #suv #nisssankicks #kicks",
+          "likes": 3218,
+          "relative_to_channel": 2.32,
+          "similarity": 0.806
+        },
+        {
+          "post_id": "7ci_7NIAYIc",
+          "url": "https://www.youtube.com/shorts/7ci_7NIAYIc",
+          "title": "NOVO ZEEKR X NO BRASIL! MELHOR QUE VOLVO EX30?  #motor1",
+          "likes": 392,
+          "relative_to_channel": 0.86,
+          "similarity": 0.795
+        },
+        {
+          "post_id": "pkRIa_HuUY0",
+          "url": "https://www.youtube.com/shorts/pkRIa_HuUY0",
+          "title": "ACABOU PARA SPRINTER E DUCATO? TOYOTA HIACE CHEGOU NO BRASIL! #motor1",
+          "likes": 7413,
+          "relative_to_channel": 30.96,
+          "similarity": 0.794
+        },
+        {
+          "post_id": "raAkPJ4jOLA",
+          "url": "https://www.youtube.com/shorts/raAkPJ4jOLA",
+          "title": "A BYD está preparando uma nova picape para o Brasil derivada do Song P... #Shorts",
+          "likes": 255,
+          "relative_to_channel": 0.83,
+          "similarity": 0.783
+        },
+        {
+          "post_id": "thHwA3ofL6w",
+          "url": "https://www.youtube.com/shorts/thHwA3ofL6w",
+          "title": "O Golf GTI Clubsport é a versão que todo mundo queria ver no Brasil!",
+          "likes": 314,
+          "relative_to_channel": 0.56,
+          "similarity": 0.764
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.62262936367123,
+        "ch_mean_prev5": 7.614272691311314,
+        "ch_mean_prev20": 7.667562361098716,
+        "ch_std_prev20": 0.638490947466198,
+        "ch_trend": -0.053289669787401905,
+        "ch_last": 6.807934943699926,
+        "ch_days_since_last": 1.7509953703703705,
+        "ch_posts_30d": 27.0,
+        "ch_log_subs": 14.363632544508476,
+        "ch_log_videos": 7.804659297056102,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 12.0,
+        "tm_weekday": 5.0,
+        "tm_weekend": 1.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 19.0,
+        "tx_title_len": 35.0,
+        "tx_title_words": 8.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 1.0,
+        "tx_upper_ratio": 1.0,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 18.066666666666666,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 1.0441069602966309,
+        "midia_vd_motion_std": 1.1599246263504028,
+        "midia_vd_brilho": 99.56873209635417,
+        "midia_vd_contraste": 62.00644965674151,
+        "midia_vd_saturacao": 64.71959852430555,
+        "midia_vd_colorfulness": 38.58210039223044,
+        "midia_vd_hue_dom": 7.0,
+        "midia_vd_cortes": 6.0,
+        "midia_vd_cortes_por_s": 0.33210332103321033,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.25,
+        "midia_fc_area_max": 0.03515625,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 6.0,
+        "midia_oc_area": 0.009114583333333334,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 2.5,
+        "midia_au_rms_mean": 0.09228433668613434,
+        "midia_au_rms_std": 0.06774958223104477,
+        "midia_au_silencio": 0.14049586776859505,
+        "midia_au_flatness": 0.35435938835144043,
+        "midia_au_fala_frac": 0.996309963099631,
+        "midia_au_palavras": 74.0,
+        "midia_au_palavras_por_s": 4.095940959409594,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 0.0,
+        "midia_transcricao": "Este de aquí es uno de los más raros de Brasil, solo hay 30 de ellos, es un polo GTI, 2 puertas 2006, 1.8 Turbo y por si fuera poco, sus lindos a 100 o 4, tiene transmisión manual de 5 velocidades y h"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 1514.3,
+      "interval_low": 789.3,
+      "interval_high": 5423.1,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.74,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.258
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.193
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.062
+        },
+        {
+          "factor": "uso de caixa alta",
+          "direction": "reduz",
+          "weight": -0.048
+        },
+        {
+          "factor": "canal de marca (vs criador)",
+          "direction": "reduz",
+          "weight": -0.036
+        }
+      ],
+      "explanation": "Previsão de ~1.514 curtidas em 60 dias (intervalo de 80%: 789 a 5.423), 0,74× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); tema e conteúdo da legenda (reduz); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "JcNe1tauPRU",
+          "url": "https://www.youtube.com/shorts/JcNe1tauPRU",
+          "title": "Messages from the Papaya Fam 🧡",
+          "likes": 2709,
+          "relative_to_channel": 1.18,
+          "similarity": 0.784
+        },
+        {
+          "post_id": "_1YcuDG9shQ",
+          "url": "https://www.youtube.com/shorts/_1YcuDG9shQ",
+          "title": "POR DENTRO DO NAVIO DA BYD",
+          "likes": 7110,
+          "relative_to_channel": 6.4,
+          "similarity": 0.74
+        },
+        {
+          "post_id": "P53Ad3qPwhs",
+          "url": "https://www.youtube.com/shorts/P53Ad3qPwhs",
+          "title": "Papaya Fam, take a bow 🖼️",
+          "likes": 1795,
+          "relative_to_channel": 0.6,
+          "similarity": 0.694
+        },
+        {
+          "post_id": "TMpmUeVJqQI",
+          "url": "https://www.youtube.com/shorts/TMpmUeVJqQI",
+          "title": "JÁ VENDEU TUDO! AMAROK SÉRIE ESPECIAL 70 ANOS BARRETOS - JÁ VENDEU AS 200, E TEM 800 NA FILA!",
+          "likes": 330,
+          "relative_to_channel": 1.88,
+          "similarity": 0.691
+        },
+        {
+          "post_id": "4qZcUVwpMtk",
+          "url": "https://www.youtube.com/shorts/4qZcUVwpMtk",
+          "title": "DE CARONA COM RUBENS BARRICHELLO COM O CARRO MAIS POTENTE DA HISTÓRIA DA VOLTA RÁPIDA! ⚡️🚘🚀",
+          "likes": 782,
+          "relative_to_channel": 1.67,
+          "similarity": 0.688
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.62262936367123,
+        "ch_mean_prev5": 7.614272691311314,
+        "ch_mean_prev20": 7.667562361098716,
+        "ch_std_prev20": 0.638490947466198,
+        "ch_trend": -0.053289669787401905,
+        "ch_last": 6.807934943699926,
+        "ch_days_since_last": 1.9999652777777779,
+        "ch_posts_30d": 27.0,
+        "ch_log_subs": 14.363632544508476,
+        "ch_log_videos": 7.804659297056102,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 17.0,
+        "tm_weekday": 5.0,
+        "tm_weekend": 1.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 40.0,
+        "tx_title_len": 26.0,
+        "tx_title_words": 6.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 1.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 1.0,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 39.46666666666667,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 1.1081459522247314,
+        "midia_vd_motion_std": 1.3535212278366089,
+        "midia_vd_brilho": 100.67985948350695,
+        "midia_vd_contraste": 56.74562571792653,
+        "midia_vd_saturacao": 103.03679253472222,
+        "midia_vd_colorfulness": 54.51216141341837,
+        "midia_vd_hue_dom": 7.0,
+        "midia_vd_cortes": 10.0,
+        "midia_vd_cortes_por_s": 0.25337837837837834,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.375,
+        "midia_fc_area_max": 0.04,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 2.0,
+        "midia_oc_area": 0.003611111111111111,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 2.0,
+        "midia_au_rms_mean": 0.16877174377441406,
+        "midia_au_rms_std": 0.09598679095506668,
+        "midia_au_silencio": 0.04177215189873418,
+        "midia_au_flatness": 0.4729098975658417,
+        "midia_au_fala_frac": 0.989695945945946,
+        "midia_au_palavras": 116.0,
+        "midia_au_palavras_por_s": 2.939189189189189,
+        "midia_au_lang_pt": 1.0,
+        "midia_au_lang_en": 0.0,
+        "midia_transcricao": "Esse é um carro muito ruim para você. Primeiro, porque é um carro muito pequeno, entreja só um pouquinho maior que um mini-cupé. Fora isso é só duas portas. Um porta-malas minusculo de 170 litros, par"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 1752.9,
+      "interval_low": 756.4,
+      "interval_high": 5117.4,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.86,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.292
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.062
+        },
+        {
+          "factor": "uso de caixa alta",
+          "direction": "reduz",
+          "weight": -0.046
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.039
+        },
+        {
+          "factor": "canal de marca (vs criador)",
+          "direction": "reduz",
+          "weight": -0.038
+        }
+      ],
+      "explanation": "Previsão de ~1.753 curtidas em 60 dias (intervalo de 80%: 756 a 5.117), 0,86× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); uso de caixa alta (reduz).",
+      "comparables": [
+        {
+          "post_id": "kqqW3cs46ZQ",
+          "url": "https://www.youtube.com/shorts/kqqW3cs46ZQ",
+          "title": "O popular da VW que não parece apertado? #motor1",
+          "likes": 220,
+          "relative_to_channel": 1.26,
+          "similarity": 0.864
+        },
+        {
+          "post_id": "V4aMxHYDBmU",
+          "url": "https://www.youtube.com/shorts/V4aMxHYDBmU",
+          "title": "TOYOTA HILUX SRX NÃO VALE A PENA? #motor1 #toyota #hilux",
+          "likes": 304,
+          "relative_to_channel": 0.97,
+          "similarity": 0.831
+        },
+        {
+          "post_id": "nWJrt6O3p3o",
+          "url": "https://www.youtube.com/shorts/nWJrt6O3p3o",
+          "title": "Volante multifuncional: praticidade e tecnologia no seu trajeto | VW Brasil",
+          "likes": 1227,
+          "relative_to_channel": 13.42,
+          "similarity": 0.803
+        },
+        {
+          "post_id": "FQnPqliMHu0",
+          "url": "https://www.youtube.com/shorts/FQnPqliMHu0",
+          "title": "O FUTURO É AGORA 🤩",
+          "likes": 160,
+          "relative_to_channel": 2.01,
+          "similarity": 0.789
+        },
+        {
+          "post_id": "jpxtMUPE8ms",
+          "url": "https://www.youtube.com/shorts/jpxtMUPE8ms",
+          "title": "O GOL GTI QUE A VW NÃO FABRICOU #volkswagen #gol #vwgol #golgt",
+          "likes": 1795,
+          "relative_to_channel": 1.04,
+          "similarity": 0.788
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.62262936367123,
+        "ch_mean_prev5": 7.614272691311314,
+        "ch_mean_prev20": 7.667562361098716,
+        "ch_std_prev20": 0.638490947466198,
+        "ch_trend": -0.053289669787401905,
+        "ch_last": 6.807934943699926,
+        "ch_days_since_last": 4.751226851851852,
+        "ch_posts_30d": 22.0,
+        "ch_log_subs": 14.363632544508476,
+        "ch_log_videos": 7.804659297056102,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 12.0,
+        "tm_weekday": 1.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 8.0,
+        "tx_title_len": 27.0,
+        "tx_title_words": 6.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 1.0,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 7.466666666666667,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 4.716248035430908,
+        "midia_vd_motion_std": 1.471972107887268,
+        "midia_vd_brilho": 142.68249945746527,
+        "midia_vd_contraste": 61.695649488227275,
+        "midia_vd_saturacao": 72.23055989583334,
+        "midia_vd_colorfulness": 54.88290873375654,
+        "midia_vd_hue_dom": 0.0,
+        "midia_vd_cortes": 2.0,
+        "midia_vd_cortes_por_s": 0.26785714285714285,
+        "midia_fc_max": 2.0,
+        "midia_fc_frac_frames": 0.75,
+        "midia_fc_area_max": 0.16844184027777778,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 13.0,
+        "midia_oc_area": 0.09010395944137498,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 2.5,
+        "midia_au_rms_mean": 0.05259343609213829,
+        "midia_au_rms_std": 0.07353740930557251,
+        "midia_au_silencio": 0.49333333333333335,
+        "midia_au_flatness": 0.36567872762680054,
+        "midia_au_fala_frac": 0.4392857142857143,
+        "midia_au_palavras": 13.0,
+        "midia_au_palavras_por_s": 1.7410714285714286,
+        "midia_au_lang_pt": 1.0,
+        "midia_au_lang_en": 0.0,
+        "midia_transcricao": "A termina a treta vou colocar a voxvagno no seu devido lugar agora."
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    }
+  ]
+}

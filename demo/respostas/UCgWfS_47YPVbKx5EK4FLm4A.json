@@ -1,0 +1,511 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/Xsh8xKwWf4c",
+      "predicted_metric": 1797.9,
+      "interval_low": 674.1,
+      "interval_high": 6208.2,
+      "relative_to_channel": 1.05
+    },
+    {
+      "posicao": 2,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/htiMoQHsN0A",
+      "predicted_metric": 1731.3,
+      "interval_low": 644.1,
+      "interval_high": 4625.0,
+      "relative_to_channel": 1.01
+    },
+    {
+      "posicao": 3,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/WlLX-W6UQoU",
+      "predicted_metric": 1511.2,
+      "interval_low": 560.6,
+      "interval_high": 5112.3,
+      "relative_to_channel": 0.88
+    },
+    {
+      "posicao": 4,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/WXQFJv52PEg",
+      "predicted_metric": 1360.2,
+      "interval_low": 584.0,
+      "interval_high": 5925.8,
+      "relative_to_channel": 0.8
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.513,
+  "previsoes": [
+    {
+      "predicted_metric": 1731.3,
+      "interval_low": 644.1,
+      "interval_high": 4625.0,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.01,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.263
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.183
+        },
+        {
+          "factor": "uso de caixa alta",
+          "direction": "aumenta",
+          "weight": 0.166
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.12
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.105
+        }
+      ],
+      "explanation": "Previsão de ~1.731 curtidas em 60 dias (intervalo de 80%: 644 a 4.625), 1,01× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); tema e conteúdo da legenda (reduz); uso de caixa alta (aumenta).",
+      "comparables": [
+        {
+          "post_id": "la9ZwCQN9cM",
+          "url": "https://www.youtube.com/shorts/la9ZwCQN9cM",
+          "title": "Na prova de trilha do BPC Itacaré, os corredores jogaram o Trilha 2 na areia, terra, barro e lama",
+          "likes": 26,
+          "relative_to_channel": 1.74,
+          "similarity": 0.679
+        },
+        {
+          "post_id": "Kbavre2Iqrs",
+          "url": "https://www.youtube.com/shorts/Kbavre2Iqrs",
+          "title": "Quem faz o corre de Noronha acontecer",
+          "likes": 19,
+          "relative_to_channel": 0.84,
+          "similarity": 0.662
+        },
+        {
+          "post_id": "GYpo38S0hGg",
+          "url": "https://www.youtube.com/shorts/GYpo38S0hGg",
+          "title": "One runner, one mile, one system of speed to break the 4-minute mile barrier. June 26th.",
+          "likes": 836,
+          "relative_to_channel": 2.02,
+          "similarity": 0.637
+        },
+        {
+          "post_id": "jPQm8Bjuca4",
+          "url": "https://www.youtube.com/shorts/jPQm8Bjuca4",
+          "title": "Seu ritmo é ACE",
+          "likes": 5,
+          "relative_to_channel": 0.86,
+          "similarity": 0.575
+        },
+        {
+          "post_id": "Q_3Dqp5iRnU",
+          "url": "https://www.youtube.com/shorts/Q_3Dqp5iRnU",
+          "title": "Layers in rotation",
+          "likes": 11,
+          "relative_to_channel": 0.83,
+          "similarity": 0.561
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 38.0,
+        "ch_med_prev20": 7.445342319307093,
+        "ch_mean_prev5": 7.0174658171211615,
+        "ch_mean_prev20": 7.375122284659663,
+        "ch_std_prev20": 0.8469577211511993,
+        "ch_trend": -0.35765646753850167,
+        "ch_last": 7.5310163320779155,
+        "ch_days_since_last": 6.206932870370371,
+        "ch_posts_30d": 5.0,
+        "ch_log_subs": 14.987993004796314,
+        "ch_log_videos": 6.70073110954781,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 22.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 8.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 66.0,
+        "tx_title_len": 11.0,
+        "tx_title_words": 2.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.0,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] htiMoQHsN0A: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 1360.2,
+      "interval_low": 584.0,
+      "interval_high": 5925.8,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.8,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.278
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.122
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.111
+        },
+        {
+          "factor": "canal de marca (vs criador)",
+          "direction": "reduz",
+          "weight": -0.038
+        },
+        {
+          "factor": "desempenho dos últimos 5 posts",
+          "direction": "reduz",
+          "weight": -0.03
+        }
+      ],
+      "explanation": "Previsão de ~1.360 curtidas em 60 dias (intervalo de 80%: 584 a 5.926), 0,8× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); tendência recente do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "7ASLMcobplU",
+          "url": "https://www.youtube.com/shorts/7ASLMcobplU",
+          "title": "Beauty is singularity.",
+          "likes": 144,
+          "relative_to_channel": 0.09,
+          "similarity": 0.759
+        },
+        {
+          "post_id": "-BQ7uF0ps1I",
+          "url": "https://www.youtube.com/shorts/-BQ7uF0ps1I",
+          "title": "Beauty is a sensation.",
+          "likes": 296,
+          "relative_to_channel": 0.36,
+          "similarity": 0.75
+        },
+        {
+          "post_id": "-7gn_v7zRFk",
+          "url": "https://www.youtube.com/shorts/-7gn_v7zRFk",
+          "title": "Everyday makeup #zarabeauty #zara",
+          "likes": 84,
+          "relative_to_channel": 1.6,
+          "similarity": 0.67
+        },
+        {
+          "post_id": "o5axiz2V5Sw",
+          "url": "https://www.youtube.com/shorts/o5axiz2V5Sw",
+          "title": "Intimate. Sensual. Irresistible. Cristina Cheni in #CalvinKlein euphoria bold elixir.",
+          "likes": 128,
+          "relative_to_channel": 0.88,
+          "similarity": 0.655
+        },
+        {
+          "post_id": "ct_iX9fE1h4",
+          "url": "https://www.youtube.com/shorts/ct_iX9fE1h4",
+          "title": "Os favoritos do time na Liquida C&A",
+          "likes": 15,
+          "relative_to_channel": 2.0,
+          "similarity": 0.633
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 38.0,
+        "ch_med_prev20": 7.445342319307093,
+        "ch_mean_prev5": 7.0174658171211615,
+        "ch_mean_prev20": 7.375122284659663,
+        "ch_std_prev20": 0.8469577211511993,
+        "ch_trend": -0.35765646753850167,
+        "ch_last": 7.5310163320779155,
+        "ch_days_since_last": 10.072488425925926,
+        "ch_posts_30d": 4.0,
+        "ch_log_subs": 14.987993004796314,
+        "ch_log_videos": 6.70073110954781,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 18.0,
+        "tm_weekday": 0.0,
+        "tm_weekend": 0.0,
+        "tm_month": 8.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 32.0,
+        "tx_title_len": 21.0,
+        "tx_title_words": 4.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.058823529411764705,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] WXQFJv52PEg: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 1511.2,
+      "interval_low": 560.6,
+      "interval_high": 5112.3,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.88,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.236
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.115
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.096
+        },
+        {
+          "factor": "canal de marca (vs criador)",
+          "direction": "reduz",
+          "weight": -0.042
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.031
+        }
+      ],
+      "explanation": "Previsão de ~1.511 curtidas em 60 dias (intervalo de 80%: 561 a 5.112), 0,88× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); tendência recente do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "o3guDTpy6VU",
+          "url": "https://www.youtube.com/shorts/o3guDTpy6VU",
+          "title": "The Food Fix You Didn’t Know You Needed 🍲♻️",
+          "likes": 35,
+          "relative_to_channel": 0.15,
+          "similarity": 0.665
+        },
+        {
+          "post_id": "wZV2_2GSx48",
+          "url": "https://www.youtube.com/shorts/wZV2_2GSx48",
+          "title": "Trust the process... 😋🍨 Which fruit & toppings would you mix in for a tasty treat?",
+          "likes": 1596,
+          "relative_to_channel": 8.85,
+          "similarity": 0.661
+        },
+        {
+          "post_id": "FPB7maW8Czo",
+          "url": "https://www.youtube.com/shorts/FPB7maW8Czo",
+          "title": "An eggs-celent way to avoid messy breakfast mishaps? That's worth shell-ebrating! 🥚🍳",
+          "likes": 224,
+          "relative_to_channel": 1.58,
+          "similarity": 0.659
+        },
+        {
+          "post_id": "UqmFxFOiX6A",
+          "url": "https://www.youtube.com/shorts/UqmFxFOiX6A",
+          "title": "Montando o kit do Dia dos Pais",
+          "likes": 20,
+          "relative_to_channel": 0.01,
+          "similarity": 0.654
+        },
+        {
+          "post_id": "mDNMBdYCAgA",
+          "url": "https://www.youtube.com/shorts/mDNMBdYCAgA",
+          "title": "Cold season essentials + fresh finds",
+          "likes": 4,
+          "relative_to_channel": 0.62,
+          "similarity": 0.645
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 38.0,
+        "ch_med_prev20": 7.445342319307093,
+        "ch_mean_prev5": 7.0174658171211615,
+        "ch_mean_prev20": 7.375122284659663,
+        "ch_std_prev20": 0.8469577211511993,
+        "ch_trend": -0.35765646753850167,
+        "ch_last": 7.5310163320779155,
+        "ch_days_since_last": 12.993113425925927,
+        "ch_posts_30d": 4.0,
+        "ch_log_subs": 14.987993004796314,
+        "ch_log_videos": 6.70073110954781,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 16.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 52.0,
+        "tx_title_len": 25.0,
+        "tx_title_words": 7.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.05263157894736842,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] WlLX-W6UQoU: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 1797.9,
+      "interval_low": 674.1,
+      "interval_high": 6208.2,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.05,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.234
+        },
+        {
+          "factor": "uso de caixa alta",
+          "direction": "aumenta",
+          "weight": 0.165
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.131
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.091
+        },
+        {
+          "factor": "dias desde o último post",
+          "direction": "aumenta",
+          "weight": 0.069
+        }
+      ],
+      "explanation": "Previsão de ~1.798 curtidas em 60 dias (intervalo de 80%: 674 a 6.208), 1,05× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); uso de caixa alta (aumenta); tendência recente do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "D4nZ5S6Kbro",
+          "url": "https://www.youtube.com/shorts/D4nZ5S6Kbro",
+          "title": "Make it foam. LA MOUSSE: new camellia cleansing cream-to-foam.",
+          "likes": 465,
+          "relative_to_channel": 0.91,
+          "similarity": 0.754
+        },
+        {
+          "post_id": "i0-HICHiQZw",
+          "url": "https://www.youtube.com/shorts/i0-HICHiQZw",
+          "title": "New camellia cleansing cream-to-foam.",
+          "likes": 265,
+          "relative_to_channel": 0.53,
+          "similarity": 0.719
+        },
+        {
+          "post_id": "Mq0MyAO1iFA",
+          "url": "https://www.youtube.com/shorts/Mq0MyAO1iFA",
+          "title": "Why fold your socks when you can roll them? 🍣😉 Soy sauce not included 🥢",
+          "likes": 253,
+          "relative_to_channel": 1.42,
+          "similarity": 0.714
+        },
+        {
+          "post_id": "iXoqxZ5lOIE",
+          "url": "https://www.youtube.com/shorts/iXoqxZ5lOIE",
+          "title": "You might even say these platters are eggs-ceptional 😏🥚✨",
+          "likes": 205,
+          "relative_to_channel": 1.3,
+          "similarity": 0.712
+        },
+        {
+          "post_id": "dlU_B3qg9sg",
+          "url": "https://www.youtube.com/shorts/dlU_B3qg9sg",
+          "title": "Body mist sounds like. Chase Dexter layers Silky Coconut and Cotton Musk. Find your signature scent.",
+          "likes": 135,
+          "relative_to_channel": 0.74,
+          "similarity": 0.641
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 38.0,
+        "ch_med_prev20": 7.445342319307093,
+        "ch_mean_prev5": 7.0174658171211615,
+        "ch_mean_prev20": 7.375122284659663,
+        "ch_std_prev20": 0.8469577211511993,
+        "ch_trend": -0.35765646753850167,
+        "ch_last": 7.5310163320779155,
+        "ch_days_since_last": 22.138217592592593,
+        "ch_posts_30d": 2.0,
+        "ch_log_subs": 14.987993004796314,
+        "ch_log_videos": 6.70073110954781,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 20.0,
+        "tm_weekday": 5.0,
+        "tm_weekend": 1.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 31.0,
+        "tx_title_len": 17.0,
+        "tx_title_words": 3.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.0,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] Xsh8xKwWf4c: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    }
+  ]
+}

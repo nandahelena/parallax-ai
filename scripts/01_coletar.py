@@ -3,7 +3,7 @@
 Idempotente e retomável: rodar de novo no mesmo dia só completa os canais que faltam.
 Cada dia vira uma pasta nova em data/raw/coleta=AAAA-MM-DD/; coletas anteriores nunca são sobrescritas.
 
-    uv run python scripts/01_collect.py [--budget 9000] [--so-resolver]
+    uv run python scripts/01_coletar.py [--budget 9000] [--so-resolver]
 """
 
 import argparse

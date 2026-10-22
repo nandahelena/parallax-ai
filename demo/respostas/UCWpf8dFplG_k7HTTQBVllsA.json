@@ -1,0 +1,544 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/xUfFakLKl4I",
+      "predicted_metric": 213.5,
+      "interval_low": 67.5,
+      "interval_high": 820.2,
+      "relative_to_channel": 1.13
+    },
+    {
+      "posicao": 2,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/idkr5F6X3PQ",
+      "predicted_metric": 191.7,
+      "interval_low": 71.4,
+      "interval_high": 750.5,
+      "relative_to_channel": 1.02
+    },
+    {
+      "posicao": 3,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/SUtb0tUEmqU",
+      "predicted_metric": 145.7,
+      "interval_low": 59.4,
+      "interval_high": 690.1,
+      "relative_to_channel": 0.77
+    },
+    {
+      "posicao": 4,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/kQqgXh2AvzI",
+      "predicted_metric": 145.0,
+      "interval_low": 62.9,
+      "interval_high": 615.0,
+      "relative_to_channel": 0.77
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.532,
+  "previsoes": [
+    {
+      "predicted_metric": 145.0,
+      "interval_low": 62.9,
+      "interval_high": 615.0,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.77,
+      "top_drivers": [
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.245
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.148
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.14
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.113
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.061
+        }
+      ],
+      "explanation": "Previsão de ~145 curtidas em 60 dias (intervalo de 80%: 63 a 615), 0,77× a mediana recente do canal. Fatores que mais pesaram: tema e conteúdo da legenda (reduz); tendência recente do canal (reduz); patamar recente de curtidas do canal (aumenta).",
+      "comparables": [
+        {
+          "post_id": "YlOWrLZpfIY",
+          "url": "https://www.youtube.com/shorts/YlOWrLZpfIY",
+          "title": "#EmmaStone #GraceCoddington #NicolasGhesquiere #LouisVuitton",
+          "likes": 230,
+          "relative_to_channel": 0.6,
+          "similarity": 0.612
+        },
+        {
+          "post_id": "ToYSSbmDPik",
+          "url": "https://www.youtube.com/shorts/ToYSSbmDPik",
+          "title": "Welcome to the MAD STADIUM at ComplexCon.",
+          "likes": 282,
+          "relative_to_channel": 0.68,
+          "similarity": 0.612
+        },
+        {
+          "post_id": "H3qlTCNHFMo",
+          "url": "https://www.youtube.com/shorts/H3qlTCNHFMo",
+          "title": "Ep05 - Manifesto Nas Paredes #shorts",
+          "likes": 3,
+          "relative_to_channel": 2.0,
+          "similarity": 0.601
+        },
+        {
+          "post_id": "M-DRgK22cpg",
+          "url": "https://www.youtube.com/shorts/M-DRgK22cpg",
+          "title": "Greatness has arrived. #yougotthis #basketball #donovanmitchell",
+          "likes": 1471,
+          "relative_to_channel": 0.19,
+          "similarity": 0.582
+        },
+        {
+          "post_id": "0iH1CzFuQbQ",
+          "url": "https://www.youtube.com/shorts/0iH1CzFuQbQ",
+          "title": "A night out with Jordan Daniels and Tyrell Hampton. Serving city looks in #calvinklein.",
+          "likes": 112,
+          "relative_to_channel": 0.24,
+          "similarity": 0.581
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 5.244385543610065,
+        "ch_mean_prev5": 5.304485389067329,
+        "ch_mean_prev20": 5.871097128734068,
+        "ch_std_prev20": 1.2186292858954673,
+        "ch_trend": -0.5666117396667385,
+        "ch_last": 5.017279836814924,
+        "ch_days_since_last": 0.2545601851851852,
+        "ch_posts_30d": 36.0,
+        "ch_log_subs": 12.685410698175234,
+        "ch_log_videos": 7.491645473605133,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 21.0,
+        "tm_weekday": 6.0,
+        "tm_weekend": 1.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 29.0,
+        "tx_title_len": 47.0,
+        "tx_title_words": 10.0,
+        "tx_desc_len": 242.0,
+        "tx_hashtags": 8.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.18859649122807018,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 28.15310604476051,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 23.905,
+        "midia_vd_motion_mean": 3.8593902587890625,
+        "midia_vd_motion_std": 1.3323129415512085,
+        "midia_vd_brilho": 143.05470377604166,
+        "midia_vd_contraste": 64.86488580397133,
+        "midia_vd_saturacao": 87.76912977430555,
+        "midia_vd_colorfulness": 43.854392012527796,
+        "midia_vd_hue_dom": 0.0,
+        "midia_vd_cortes": 23.0,
+        "midia_vd_cortes_por_s": 0.816961367013373,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.5,
+        "midia_fc_area_max": 0.60625,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 34.0,
+        "midia_oc_area": 0.08340277777777778,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 2.5,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 3.0,
+        "midia_au_rms_mean": 0.10867732018232346,
+        "midia_au_rms_std": 0.05757684260606766,
+        "midia_au_silencio": 0.017761989342806393,
+        "midia_au_flatness": 0.3644208014011383,
+        "midia_au_fala_frac": 0.8240653789004457,
+        "midia_au_palavras": 67.0,
+        "midia_au_palavras_por_s": 2.379843982169391,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": "If I had to describe US Open in one sentence, it's dynamic. It's exciting. It's just the best time in the world. Nothing says New York like going to Queens for a test match. Nothing says New York like"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 145.7,
+      "interval_low": 59.4,
+      "interval_high": 690.1,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.77,
+      "top_drivers": [
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.312
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.165
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.152
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.114
+        },
+        {
+          "factor": "instabilidade do canal",
+          "direction": "reduz",
+          "weight": -0.037
+        }
+      ],
+      "explanation": "Previsão de ~146 curtidas em 60 dias (intervalo de 80%: 59 a 690), 0,77× a mediana recente do canal. Fatores que mais pesaram: tema e conteúdo da legenda (reduz); patamar recente de curtidas do canal (aumenta); tendência recente do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "QM99YIxoyiM",
+          "url": "https://www.youtube.com/shorts/QM99YIxoyiM",
+          "title": "Spritz and a Charlotte T #charlottetilbury #asos #trend",
+          "likes": 4,
+          "relative_to_channel": 0.32,
+          "similarity": 0.639
+        },
+        {
+          "post_id": "YlOWrLZpfIY",
+          "url": "https://www.youtube.com/shorts/YlOWrLZpfIY",
+          "title": "#EmmaStone #GraceCoddington #NicolasGhesquiere #LouisVuitton",
+          "likes": 230,
+          "relative_to_channel": 0.6,
+          "similarity": 0.636
+        },
+        {
+          "post_id": "IB-YtL2Rizg",
+          "url": "https://www.youtube.com/shorts/IB-YtL2Rizg",
+          "title": "#JudeBellingham #PharrellWilliams #LouisVuitton",
+          "likes": 267,
+          "relative_to_channel": 0.73,
+          "similarity": 0.622
+        },
+        {
+          "post_id": "bCsYHegKd3Y",
+          "url": "https://www.youtube.com/shorts/bCsYHegKd3Y",
+          "title": "Cricketing legend, meet future legend.",
+          "likes": 9659,
+          "relative_to_channel": 18.46,
+          "similarity": 0.602
+        },
+        {
+          "post_id": "Hs4A30UrnBE",
+          "url": "https://www.youtube.com/shorts/Hs4A30UrnBE",
+          "title": "Basketball is life. Congrats James Harden on entering the Top 10 Scoring in NBA History #jamesharden",
+          "likes": 276,
+          "relative_to_channel": 0.22,
+          "similarity": 0.587
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 5.244385543610065,
+        "ch_mean_prev5": 5.304485389067329,
+        "ch_mean_prev20": 5.871097128734068,
+        "ch_std_prev20": 1.2186292858954673,
+        "ch_trend": -0.5666117396667385,
+        "ch_last": 5.017279836814924,
+        "ch_days_since_last": 0.9180671296296297,
+        "ch_posts_30d": 36.0,
+        "ch_log_subs": 12.685410698175234,
+        "ch_log_videos": 7.491645473605133,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 13.0,
+        "tm_weekday": 0.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 49.0,
+        "tx_title_len": 47.0,
+        "tx_title_words": 10.0,
+        "tx_desc_len": 317.0,
+        "tx_hashtags": 8.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.17894736842105263,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] SUtb0tUEmqU: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 213.5,
+      "interval_low": 67.5,
+      "interval_high": 820.2,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.13,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.166
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.164
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.145
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.137
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.115
+        }
+      ],
+      "explanation": "Previsão de ~214 curtidas em 60 dias (intervalo de 80%: 68 a 820), 1,13× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); duração do vídeo (aumenta); tendência recente do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "IAakj57dFW0",
+          "url": "https://www.youtube.com/shorts/IAakj57dFW0",
+          "title": "Hudson Williams' look at the Met Gala 2026",
+          "likes": 512,
+          "relative_to_channel": 3.65,
+          "similarity": 0.666
+        },
+        {
+          "post_id": "YlOWrLZpfIY",
+          "url": "https://www.youtube.com/shorts/YlOWrLZpfIY",
+          "title": "#EmmaStone #GraceCoddington #NicolasGhesquiere #LouisVuitton",
+          "likes": 230,
+          "relative_to_channel": 0.6,
+          "similarity": 0.631
+        },
+        {
+          "post_id": "zFqQcCuzOXQ",
+          "url": "https://www.youtube.com/shorts/zFqQcCuzOXQ",
+          "title": "#JudeBellingham #MenSS26PreCo #PharrellWilliams #LouisVuitton",
+          "likes": 337,
+          "relative_to_channel": 0.63,
+          "similarity": 0.628
+        },
+        {
+          "post_id": "H08Je1l1QGI",
+          "url": "https://www.youtube.com/shorts/H08Je1l1QGI",
+          "title": "Gold medals to world records—it’s all been leading here. Watch it live June 26th.",
+          "likes": 720,
+          "relative_to_channel": 1.63,
+          "similarity": 0.621
+        },
+        {
+          "post_id": "cmmHKXAzOn4",
+          "url": "https://www.youtube.com/shorts/cmmHKXAzOn4",
+          "title": "J12 BLEU Diamond Tourbillon — CHANEL Haute Horlogerie",
+          "likes": 311,
+          "relative_to_channel": 0.36,
+          "similarity": 0.62
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 5.244385543610065,
+        "ch_mean_prev5": 5.304485389067329,
+        "ch_mean_prev20": 5.871097128734068,
+        "ch_std_prev20": 1.2186292858954673,
+        "ch_trend": -0.5666117396667385,
+        "ch_last": 5.017279836814924,
+        "ch_days_since_last": 1.251087962962963,
+        "ch_posts_30d": 36.0,
+        "ch_log_subs": 12.685410698175234,
+        "ch_log_videos": 7.491645473605133,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 21.0,
+        "tm_weekday": 0.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 71.0,
+        "tx_title_len": 47.0,
+        "tx_title_words": 10.0,
+        "tx_desc_len": 257.0,
+        "tx_hashtags": 8.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.18376068376068377,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] xUfFakLKl4I: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 191.7,
+      "interval_low": 71.4,
+      "interval_high": 750.5,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.02,
+      "top_drivers": [
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.163
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.15
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.129
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.05
+        },
+        {
+          "factor": "tamanho da descrição",
+          "direction": "aumenta",
+          "weight": 0.034
+        }
+      ],
+      "explanation": "Previsão de ~192 curtidas em 60 dias (intervalo de 80%: 71 a 750), 1,02× a mediana recente do canal. Fatores que mais pesaram: tendência recente do canal (reduz); patamar recente de curtidas do canal (aumenta); desempenho do post anterior (reduz).",
+      "comparables": [
+        {
+          "post_id": "hEa8KkwNm6k",
+          "url": "https://www.youtube.com/shorts/hEa8KkwNm6k",
+          "title": "Jessie Buckley, Tilda Swinton, Gracie Abrams, and Maya Rudolph at the 79th edition of the BAFTA",
+          "likes": 366,
+          "relative_to_channel": 0.23,
+          "similarity": 0.764
+        },
+        {
+          "post_id": "MLHdGEygpDc",
+          "url": "https://www.youtube.com/shorts/MLHdGEygpDc",
+          "title": "The facts with Mary Beth Barone and Owen Thiele.",
+          "likes": 31,
+          "relative_to_channel": 0.58,
+          "similarity": 0.735
+        },
+        {
+          "post_id": "T7ZD76NV0Iw",
+          "url": "https://www.youtube.com/shorts/T7ZD76NV0Iw",
+          "title": "Sadie Sink, Tate McRae, Benito Skinner, Mary Beth Barone and more sit front row.",
+          "likes": 413,
+          "relative_to_channel": 7.47,
+          "similarity": 0.718
+        },
+        {
+          "post_id": "u4oZ7SQInCI",
+          "url": "https://www.youtube.com/shorts/u4oZ7SQInCI",
+          "title": "In the Library with Marion Cotillard — CHANEL and Literature",
+          "likes": 753,
+          "relative_to_channel": 1.43,
+          "similarity": 0.656
+        },
+        {
+          "post_id": "NR5J4MpGyxA",
+          "url": "https://www.youtube.com/shorts/NR5J4MpGyxA",
+          "title": "Dree Hemingway shares the films and soundtracks that define her summer. #MANGOSlowSummer",
+          "likes": 5,
+          "relative_to_channel": 0.46,
+          "similarity": 0.596
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 5.244385543610065,
+        "ch_mean_prev5": 5.304485389067329,
+        "ch_mean_prev20": 5.871097128734068,
+        "ch_std_prev20": 1.2186292858954673,
+        "ch_trend": -0.5666117396667385,
+        "ch_last": 5.017279836814924,
+        "ch_days_since_last": 1.3133449074074075,
+        "ch_posts_30d": 36.0,
+        "ch_log_subs": 12.685410698175234,
+        "ch_log_videos": 7.491645473605133,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 23.0,
+        "tm_weekday": 0.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 30.0,
+        "tx_title_len": 45.0,
+        "tx_title_words": 9.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.47058823529411764,
+        "tx_cta": 0.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] idkr5F6X3PQ: This video is not available); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    }
+  ]
+}

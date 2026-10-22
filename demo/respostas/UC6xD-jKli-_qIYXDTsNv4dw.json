@@ -1,0 +1,669 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/0Fb1dqHWf9g",
+      "predicted_metric": 633.3,
+      "interval_low": 232.3,
+      "interval_high": 2507.1,
+      "relative_to_channel": 1.06
+    },
+    {
+      "posicao": 2,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/Hq0xZAf4k9g",
+      "predicted_metric": 614.9,
+      "interval_low": 229.0,
+      "interval_high": 3001.2,
+      "relative_to_channel": 1.03
+    },
+    {
+      "posicao": 3,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/PgWFjm3hCmw",
+      "predicted_metric": 584.3,
+      "interval_low": 217.4,
+      "interval_high": 2058.7,
+      "relative_to_channel": 0.98
+    },
+    {
+      "posicao": 4,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/CM3Y1ABp6Y0",
+      "predicted_metric": 581.0,
+      "interval_low": 245.9,
+      "interval_high": 2427.2,
+      "relative_to_channel": 0.97
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.509,
+  "previsoes": [
+    {
+      "predicted_metric": 584.3,
+      "interval_low": 217.4,
+      "interval_high": 2058.7,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.98,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.176
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.107
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.07
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "aumenta",
+          "weight": 0.049
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.043
+        }
+      ],
+      "explanation": "Previsão de ~584 curtidas em 60 dias (intervalo de 80%: 217 a 2.059), 0,98× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); tema e conteúdo da legenda (reduz).",
+      "comparables": [
+        {
+          "post_id": "O2z_fBjJmHs",
+          "url": "https://www.youtube.com/shorts/O2z_fBjJmHs",
+          "title": "Kyle MacLachlan as \"The Villain\"",
+          "likes": 195,
+          "relative_to_channel": 0.68,
+          "similarity": 0.771
+        },
+        {
+          "post_id": "o2A13rKrDpY",
+          "url": "https://www.youtube.com/shorts/o2A13rKrDpY",
+          "title": "From Tyson Fury to Germaine Greer, artist Linder shares her thoughts on the arts & culture podcast.",
+          "likes": 368,
+          "relative_to_channel": 0.83,
+          "similarity": 0.758
+        },
+        {
+          "post_id": "T7ZD76NV0Iw",
+          "url": "https://www.youtube.com/shorts/T7ZD76NV0Iw",
+          "title": "Sadie Sink, Tate McRae, Benito Skinner, Mary Beth Barone and more sit front row.",
+          "likes": 413,
+          "relative_to_channel": 7.47,
+          "similarity": 0.708
+        },
+        {
+          "post_id": "LTxo7N2R_5U",
+          "url": "https://www.youtube.com/shorts/LTxo7N2R_5U",
+          "title": "CHANEL Connects S5 Ep3 explores narratives with artists Gerard & Kelly and writer Lauren Collins.",
+          "likes": 239,
+          "relative_to_channel": 0.61,
+          "similarity": 0.706
+        },
+        {
+          "post_id": "8OlU0F4klEU",
+          "url": "https://www.youtube.com/shorts/8OlU0F4klEU",
+          "title": "Emily Ratajowski front row at the Calvin Klein Collection Spring 2027 runway show by Veronica Leoni.",
+          "likes": 156,
+          "relative_to_channel": 1.53,
+          "similarity": 0.685
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.396218037946053,
+        "ch_mean_prev5": 6.1909650704889305,
+        "ch_mean_prev20": 6.27922738194532,
+        "ch_std_prev20": 0.6872203211852969,
+        "ch_trend": -0.08826231145638985,
+        "ch_last": 7.040536390215956,
+        "ch_days_since_last": 1.1249421296296296,
+        "ch_posts_30d": 30.0,
+        "ch_log_subs": 15.26242977619469,
+        "ch_log_videos": 7.614805364711073,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 13.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 12.0,
+        "tx_title_len": 69.0,
+        "tx_title_words": 9.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 1.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.125,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 11.44,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 25.0,
+        "midia_vd_motion_mean": 3.2083687782287598,
+        "midia_vd_motion_std": 1.8450100421905518,
+        "midia_vd_brilho": 77.47421712239583,
+        "midia_vd_contraste": 65.62304905426993,
+        "midia_vd_saturacao": 101.2308523220486,
+        "midia_vd_colorfulness": 25.127491314193925,
+        "midia_vd_hue_dom": 7.0,
+        "midia_vd_cortes": 2.0,
+        "midia_vd_cortes_por_s": 0.17482517482517484,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.875,
+        "midia_fc_area_max": 0.04168402777777778,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 0.0,
+        "midia_oc_area": 0.0,
+        "midia_oc_tem_texto": 0.0,
+        "midia_ob_pessoas": 2.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 3.5,
+        "midia_au_rms_mean": 0.021644949913024902,
+        "midia_au_rms_std": 0.04177626594901085,
+        "midia_au_silencio": 0.8078602620087336,
+        "midia_au_flatness": 0.27642711997032166,
+        "midia_au_fala_frac": 0.23776223776223782,
+        "midia_au_palavras": 9.0,
+        "midia_au_palavras_por_s": 0.7867132867132868,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": "Yeah, you want me to be physically taller? Yeah."
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 633.3,
+      "interval_low": 232.3,
+      "interval_high": 2507.1,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.06,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.184
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.107
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "aumenta",
+          "weight": 0.057
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.039
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.034
+        }
+      ],
+      "explanation": "Previsão de ~633 curtidas em 60 dias (intervalo de 80%: 232 a 2.507), 1,06× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); inscritos do canal (aumenta).",
+      "comparables": [
+        {
+          "post_id": "T7ZD76NV0Iw",
+          "url": "https://www.youtube.com/shorts/T7ZD76NV0Iw",
+          "title": "Sadie Sink, Tate McRae, Benito Skinner, Mary Beth Barone and more sit front row.",
+          "likes": 413,
+          "relative_to_channel": 7.47,
+          "similarity": 0.736
+        },
+        {
+          "post_id": "DJUUcE8pHjE",
+          "url": "https://www.youtube.com/shorts/DJUUcE8pHjE",
+          "title": "All eyes on Teyana Taylor at the Calvin Klein Collection Spring 2027 runway show by Veronica Leoni.",
+          "likes": 212,
+          "relative_to_channel": 0.36,
+          "similarity": 0.721
+        },
+        {
+          "post_id": "hEa8KkwNm6k",
+          "url": "https://www.youtube.com/shorts/hEa8KkwNm6k",
+          "title": "Jessie Buckley, Tilda Swinton, Gracie Abrams, and Maya Rudolph at the 79th edition of the BAFTA",
+          "likes": 366,
+          "relative_to_channel": 0.23,
+          "similarity": 0.716
+        },
+        {
+          "post_id": "3a1XZbBVu20",
+          "url": "https://www.youtube.com/shorts/3a1XZbBVu20",
+          "title": "Like Father, Like Son. Harden Vol 10 “Imma Be a Star” releasing 12/15. #jamesharden #uno #adidas",
+          "likes": 575,
+          "relative_to_channel": 0.54,
+          "similarity": 0.707
+        },
+        {
+          "post_id": "jHQnXxouRys",
+          "url": "https://www.youtube.com/shorts/jHQnXxouRys",
+          "title": "SR_A ENGINEERED BY ZARA. Jules Koundé & Samuel Ross in conversation. ⁣#SRA #ZARA #SAMUELROSS",
+          "likes": 54,
+          "relative_to_channel": 1.57,
+          "similarity": 0.702
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.396218037946053,
+        "ch_mean_prev5": 6.1909650704889305,
+        "ch_mean_prev20": 6.27922738194532,
+        "ch_std_prev20": 0.6872203211852969,
+        "ch_trend": -0.08826231145638985,
+        "ch_last": 7.040536390215956,
+        "ch_days_since_last": 1.2501967592592593,
+        "ch_posts_30d": 30.0,
+        "ch_log_subs": 15.26242977619469,
+        "ch_log_videos": 7.614805364711073,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 16.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 15.0,
+        "tx_title_len": 67.0,
+        "tx_title_words": 9.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 1.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.12962962962962962,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 15.0,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 25.0,
+        "midia_vd_motion_mean": 2.645094394683838,
+        "midia_vd_motion_std": 1.2376554012298584,
+        "midia_vd_brilho": 147.3400466579861,
+        "midia_vd_contraste": 53.13677940851305,
+        "midia_vd_saturacao": 27.48622612847222,
+        "midia_vd_colorfulness": 18.211459245503043,
+        "midia_vd_hue_dom": 7.0,
+        "midia_vd_cortes": 2.0,
+        "midia_vd_cortes_por_s": 0.13333333333333333,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.625,
+        "midia_fc_area_max": 0.06460069444444444,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 0.0,
+        "midia_oc_area": 0.0,
+        "midia_oc_tem_texto": 0.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.0,
+        "midia_au_rms_mean": 0.07661861181259155,
+        "midia_au_rms_std": 0.06541859358549118,
+        "midia_au_silencio": 0.04318936877076412,
+        "midia_au_flatness": 0.43760183453559875,
+        "midia_au_fala_frac": 0.09599999999999996,
+        "midia_au_palavras": 5.0,
+        "midia_au_palavras_por_s": 0.3333333333333333,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": "I'm feeling in my head."
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 581.0,
+      "interval_low": 245.9,
+      "interval_high": 2427.2,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.97,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.164
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.1
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.096
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "aumenta",
+          "weight": 0.057
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.043
+        }
+      ],
+      "explanation": "Previsão de ~581 curtidas em 60 dias (intervalo de 80%: 246 a 2.427), 0,97× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); tema e conteúdo da legenda (reduz).",
+      "comparables": [
+        {
+          "post_id": "Hcv-83U__eM",
+          "url": "https://www.youtube.com/shorts/Hcv-83U__eM",
+          "title": "Ray & Kaleena Smith learn Harden’s moves! 👀🔥 #adidas #Ray #Harden",
+          "likes": 1022,
+          "relative_to_channel": 0.39,
+          "similarity": 0.719
+        },
+        {
+          "post_id": "ALwBiB7wbRY",
+          "url": "https://www.youtube.com/shorts/ALwBiB7wbRY",
+          "title": "Go Wild Podcast | Teaser Ep. 13 - Colin Jackson🎙️",
+          "likes": 82,
+          "relative_to_channel": 0.43,
+          "similarity": 0.718
+        },
+        {
+          "post_id": "O2z_fBjJmHs",
+          "url": "https://www.youtube.com/shorts/O2z_fBjJmHs",
+          "title": "Kyle MacLachlan as \"The Villain\"",
+          "likes": 195,
+          "relative_to_channel": 0.68,
+          "similarity": 0.7
+        },
+        {
+          "post_id": "o2A13rKrDpY",
+          "url": "https://www.youtube.com/shorts/o2A13rKrDpY",
+          "title": "From Tyson Fury to Germaine Greer, artist Linder shares her thoughts on the arts & culture podcast.",
+          "likes": 368,
+          "relative_to_channel": 0.83,
+          "similarity": 0.697
+        },
+        {
+          "post_id": "AG2GQ5178sU",
+          "url": "https://www.youtube.com/shorts/AG2GQ5178sU",
+          "title": "Introducing the cast of your new favourite show #asos #insiders",
+          "likes": 21,
+          "relative_to_channel": 1.42,
+          "similarity": 0.669
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.396218037946053,
+        "ch_mean_prev5": 6.1909650704889305,
+        "ch_mean_prev20": 6.27922738194532,
+        "ch_std_prev20": 0.6872203211852969,
+        "ch_trend": -0.08826231145638985,
+        "ch_last": 7.040536390215956,
+        "ch_days_since_last": 1.374861111111111,
+        "ch_posts_30d": 30.0,
+        "ch_log_subs": 15.26242977619469,
+        "ch_log_videos": 7.614805364711073,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 19.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 25.0,
+        "tx_title_len": 67.0,
+        "tx_title_words": 9.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 1.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.12962962962962962,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 24.72,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 25.0,
+        "midia_vd_motion_mean": 0.624279797077179,
+        "midia_vd_motion_std": 0.784623920917511,
+        "midia_vd_brilho": 146.529755859375,
+        "midia_vd_contraste": 50.87579179747318,
+        "midia_vd_saturacao": 103.6069189453125,
+        "midia_vd_colorfulness": 33.15623463766573,
+        "midia_vd_hue_dom": 7.0,
+        "midia_vd_cortes": 2.0,
+        "midia_vd_cortes_por_s": 0.08090614886731393,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.125,
+        "midia_fc_area_max": 0.04083767361111111,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 40.0,
+        "midia_oc_area": 0.02277777777777778,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.0,
+        "midia_au_rms_mean": 0.04287146404385567,
+        "midia_au_rms_std": 0.03226952254772186,
+        "midia_au_silencio": 0.00808080808080808,
+        "midia_au_flatness": 0.37825921177864075,
+        "midia_au_fala_frac": 0.9093851132686085,
+        "midia_au_palavras": 46.0,
+        "midia_au_palavras_por_s": 1.86084142394822,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": "It's really just, it's really, it's an reimagining of a t-shirt I think. It's a reimagining of a t-shirt. I don't know if it was quite beautiful. I don't know. Ah, okay. All right, this. So, we're goo"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 614.9,
+      "interval_low": 229.0,
+      "interval_high": 3001.2,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 1.03,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.174
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.106
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.085
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "aumenta",
+          "weight": 0.055
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.049
+        }
+      ],
+      "explanation": "Previsão de ~615 curtidas em 60 dias (intervalo de 80%: 229 a 3.001), 1,03× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); desempenho do post anterior (aumenta); tema e conteúdo da legenda (reduz).",
+      "comparables": [
+        {
+          "post_id": "O2z_fBjJmHs",
+          "url": "https://www.youtube.com/shorts/O2z_fBjJmHs",
+          "title": "Kyle MacLachlan as \"The Villain\"",
+          "likes": 195,
+          "relative_to_channel": 0.68,
+          "similarity": 0.77
+        },
+        {
+          "post_id": "ALwBiB7wbRY",
+          "url": "https://www.youtube.com/shorts/ALwBiB7wbRY",
+          "title": "Go Wild Podcast | Teaser Ep. 13 - Colin Jackson🎙️",
+          "likes": 82,
+          "relative_to_channel": 0.43,
+          "similarity": 0.724
+        },
+        {
+          "post_id": "3a1XZbBVu20",
+          "url": "https://www.youtube.com/shorts/3a1XZbBVu20",
+          "title": "Like Father, Like Son. Harden Vol 10 “Imma Be a Star” releasing 12/15. #jamesharden #uno #adidas",
+          "likes": 575,
+          "relative_to_channel": 0.54,
+          "similarity": 0.698
+        },
+        {
+          "post_id": "o2A13rKrDpY",
+          "url": "https://www.youtube.com/shorts/o2A13rKrDpY",
+          "title": "From Tyson Fury to Germaine Greer, artist Linder shares her thoughts on the arts & culture podcast.",
+          "likes": 368,
+          "relative_to_channel": 0.83,
+          "similarity": 0.682
+        },
+        {
+          "post_id": "lr8Xax4AsOc",
+          "url": "https://www.youtube.com/shorts/lr8Xax4AsOc",
+          "title": "Right on cue. Alex Eala at the Calvin Klein Collection Spring 2027 runway show by Veronica Leoni.",
+          "likes": 100,
+          "relative_to_channel": 0.45,
+          "similarity": 0.676
+        },
+        {
+          "post_id": "k9L3zvQ0ESY",
+          "url": "https://www.youtube.com/shorts/k9L3zvQ0ESY",
+          "title": "Tate McRae front row at the Calvin Klein Collection Spring 2027 runway show by Veronica Leoni.",
+          "likes": 291,
+          "relative_to_channel": 0.5,
+          "similarity": 0.674
+        },
+        {
+          "post_id": "AG2GQ5178sU",
+          "url": "https://www.youtube.com/shorts/AG2GQ5178sU",
+          "title": "Introducing the cast of your new favourite show #asos #insiders",
+          "likes": 21,
+          "relative_to_channel": 1.42,
+          "similarity": 0.67
+        },
+        {
+          "post_id": "jHQnXxouRys",
+          "url": "https://www.youtube.com/shorts/jHQnXxouRys",
+          "title": "SR_A ENGINEERED BY ZARA. Jules Koundé & Samuel Ross in conversation. ⁣#SRA #ZARA #SAMUELROSS",
+          "likes": 54,
+          "relative_to_channel": 1.57,
+          "similarity": 0.668
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.396218037946053,
+        "ch_mean_prev5": 6.1909650704889305,
+        "ch_mean_prev20": 6.27922738194532,
+        "ch_std_prev20": 0.6872203211852969,
+        "ch_trend": -0.08826231145638985,
+        "ch_last": 7.040536390215956,
+        "ch_days_since_last": 1.5001273148148149,
+        "ch_posts_30d": 30.0,
+        "ch_log_subs": 15.26242977619469,
+        "ch_log_videos": 7.614805364711073,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "moda",
+        "tm_hour": 22.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 29.0,
+        "tx_title_len": 68.0,
+        "tx_title_words": 9.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 1.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.14814814814814814,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 28.52,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 25.0,
+        "midia_vd_motion_mean": 0.7104063034057617,
+        "midia_vd_motion_std": 0.6866273283958435,
+        "midia_vd_brilho": 124.26555447048611,
+        "midia_vd_contraste": 54.85020147385508,
+        "midia_vd_saturacao": 53.759716254340276,
+        "midia_vd_colorfulness": 29.434274837357787,
+        "midia_vd_hue_dom": 6.0,
+        "midia_vd_cortes": 2.0,
+        "midia_vd_cortes_por_s": 0.07012622720897616,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.875,
+        "midia_fc_area_max": 0.05542100694444444,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 10.0,
+        "midia_oc_area": 0.008159722222222223,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 1.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.5,
+        "midia_au_rms_mean": 0.04986260458827019,
+        "midia_au_rms_std": 0.04779398441314697,
+        "midia_au_silencio": 0.0070052539404553416,
+        "midia_au_flatness": 0.29451996088027954,
+        "midia_au_fala_frac": 0.8299438990182328,
+        "midia_au_palavras": 23.0,
+        "midia_au_palavras_por_s": 0.8064516129032259,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": "Maybe he's crying and like he's maybe seen like a piece of jewelry or something like a Parachinos. Yeah, I can't get it"
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    }
+  ]
+}

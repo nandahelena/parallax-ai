@@ -31,7 +31,10 @@ IDADE_MIN_DIAS = 30
 JANELA_MESES = 24
 MAX_SHORTS_POR_CANAL = 400
 MIN_SHORTS_POR_CANAL = 30  # abaixo disso o histórico do canal é curto demais para o alvo relativo
+N_SUBSET_MULTIMODAL = 2090  # D23: primeiros da fila embaralhada (demo + ~1.030 teste + ~620 treino + ~250 val)
 N_DEMO_POR_SETOR = 3  # canais inteiros fora do treino, para o de-para da demo
+BASE_TREINO = "base_v2.parquet"  # R29: base_v1 com estatísticas recoletadas em 16/10
+VERSAO_MODELO = "v1"  # G2: base_v2 + conformal (o v0 fica preservado em models/v0)
 
 # Modelagem (D03, D07)
 K_HISTORICO = 20
@@ -40,5 +43,9 @@ HORIZONTE_DIAS = 60
 QUANTIS = (0.1, 0.9)
 
 # Modelos externos (D09, D13)
+# D19: MiniLM multilíngue no lugar do mpnet recomendado pelo TAPI: ~3x mais rápido em CPU, e o texto vira só PCA-32
+TEXT_EMB_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+N_PCA_TEXTO = 32
 GEMINI_VLM = "gemini-3.5-flash-lite"
-GEMINI_VLM_FALLBACK = "gemini-2.5-flash-lite"
+GEMINI_VLM_FALLBACK = "gemini-3.5-flash"  # D22: cota diária própria; o 2.5-flash-lite não existe mais para contas novas
+GEMINI_LLM = "gemini-3.5-flash"  # explicador (poucas chamadas)

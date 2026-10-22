@@ -1,0 +1,511 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/T6IoO5QPdQQ",
+      "predicted_metric": 3425.8,
+      "interval_low": 1258.3,
+      "interval_high": 8861.6,
+      "relative_to_channel": 1.33
+    },
+    {
+      "posicao": 2,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/vuq8vBM-lLk",
+      "predicted_metric": 3273.8,
+      "interval_low": 1240.2,
+      "interval_high": 9102.6,
+      "relative_to_channel": 1.27
+    },
+    {
+      "posicao": 3,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/bX9MxD5UKMk",
+      "predicted_metric": 3206.8,
+      "interval_low": 1189.1,
+      "interval_high": 7484.4,
+      "relative_to_channel": 1.25
+    },
+    {
+      "posicao": 4,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/TpsND4G-OwA",
+      "predicted_metric": 3059.7,
+      "interval_low": 1218.8,
+      "interval_high": 9139.1,
+      "relative_to_channel": 1.19
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.517,
+  "previsoes": [
+    {
+      "predicted_metric": 3059.7,
+      "interval_low": 1218.8,
+      "interval_high": 9139.1,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.19,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.317
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.265
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.136
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.056
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.05
+        }
+      ],
+      "explanation": "Previsão de ~3.060 curtidas em 60 dias (intervalo de 80%: 1.219 a 9.139), 1,19× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); duração do vídeo (aumenta); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "HkSBqSSyS5s",
+          "url": "https://www.youtube.com/shorts/HkSBqSSyS5s",
+          "title": "HBD, Insiders!",
+          "likes": 300,
+          "relative_to_channel": 0.33,
+          "similarity": 0.745
+        },
+        {
+          "post_id": "VR0JOzfI4bg",
+          "url": "https://www.youtube.com/shorts/VR0JOzfI4bg",
+          "title": "The brow duo of our dreams 💫 @nessa.torr",
+          "likes": 26,
+          "relative_to_channel": 0.83,
+          "similarity": 0.736
+        },
+        {
+          "post_id": "MfYtGcKW5_Q",
+          "url": "https://www.youtube.com/shorts/MfYtGcKW5_Q",
+          "title": "Full face of Huda Beauty by @adele.maina. and we’re obsessed! Who else loves #ASMR #hudabeauty",
+          "likes": 2383,
+          "relative_to_channel": 1.57,
+          "similarity": 0.724
+        },
+        {
+          "post_id": "mUeN2g6HVsI",
+          "url": "https://www.youtube.com/shorts/mUeN2g6HVsI",
+          "title": "This moment with Rihanna & @iamScottEvans from #accesshollywood 😂",
+          "likes": 8961,
+          "relative_to_channel": 5.13,
+          "similarity": 0.707
+        },
+        {
+          "post_id": "8sXd0sShkUo",
+          "url": "https://www.youtube.com/shorts/8sXd0sShkUo",
+          "title": "Caught in a web @giulio.schettini.mua⁠ 🕸️",
+          "likes": 36,
+          "relative_to_channel": 0.74,
+          "similarity": 0.704
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.852548669694734,
+        "ch_mean_prev5": 7.917500608669056,
+        "ch_mean_prev20": 7.993871667276361,
+        "ch_std_prev20": 0.5564513357256192,
+        "ch_trend": -0.07637105860730475,
+        "ch_last": 8.190354403763262,
+        "ch_days_since_last": 1.0002777777777778,
+        "ch_posts_30d": 4.0,
+        "ch_log_subs": 14.855787622976248,
+        "ch_log_videos": 7.699389406256737,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 17.0,
+        "tm_weekday": 2.0,
+        "tm_weekend": 0.0,
+        "tm_month": 7.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 144.0,
+        "tx_title_len": 44.0,
+        "tx_title_words": 8.0,
+        "tx_desc_len": 1054.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 15.0,
+        "tx_emojis": 10.0,
+        "tx_question": 3.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.289002557544757,
+        "tx_cta": 3.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] TpsND4G-OwA: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 3206.8,
+      "interval_low": 1189.1,
+      "interval_high": 7484.4,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.25,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.302
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.2
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.135
+        },
+        {
+          "factor": "tamanho da descrição",
+          "direction": "aumenta",
+          "weight": 0.071
+        },
+        {
+          "factor": "emojis",
+          "direction": "aumenta",
+          "weight": 0.039
+        }
+      ],
+      "explanation": "Previsão de ~3.207 curtidas em 60 dias (intervalo de 80%: 1.189 a 7.484), 1,25× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); duração do vídeo (aumenta); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "8sXd0sShkUo",
+          "url": "https://www.youtube.com/shorts/8sXd0sShkUo",
+          "title": "Caught in a web @giulio.schettini.mua⁠ 🕸️",
+          "likes": 36,
+          "relative_to_channel": 0.74,
+          "similarity": 0.794
+        },
+        {
+          "post_id": "VR0JOzfI4bg",
+          "url": "https://www.youtube.com/shorts/VR0JOzfI4bg",
+          "title": "The brow duo of our dreams 💫 @nessa.torr",
+          "likes": 26,
+          "relative_to_channel": 0.83,
+          "similarity": 0.779
+        },
+        {
+          "post_id": "HkSBqSSyS5s",
+          "url": "https://www.youtube.com/shorts/HkSBqSSyS5s",
+          "title": "HBD, Insiders!",
+          "likes": 300,
+          "relative_to_channel": 0.33,
+          "similarity": 0.714
+        },
+        {
+          "post_id": "zIL_6bNiATg",
+          "url": "https://www.youtube.com/shorts/zIL_6bNiATg",
+          "title": "e.l.f Made a HUGE mistake - full video on my youtube now!",
+          "likes": 1453,
+          "relative_to_channel": 0.52,
+          "similarity": 0.683
+        },
+        {
+          "post_id": "-XXU-J_c4nM",
+          "url": "https://www.youtube.com/shorts/-XXU-J_c4nM",
+          "title": "Aquela amiga preparada pra tudo e FABULOOOSA com o cílios 2x mais volumosos.",
+          "likes": 100,
+          "relative_to_channel": 3.16,
+          "similarity": 0.652
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.852548669694734,
+        "ch_mean_prev5": 7.917500608669056,
+        "ch_mean_prev20": 7.993871667276361,
+        "ch_std_prev20": 0.5564513357256192,
+        "ch_trend": -0.07637105860730475,
+        "ch_last": 8.190354403763262,
+        "ch_days_since_last": 2.0002662037037036,
+        "ch_posts_30d": 4.0,
+        "ch_log_subs": 14.855787622976248,
+        "ch_log_videos": 7.699389406256737,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 17.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 7.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 118.0,
+        "tx_title_len": 40.0,
+        "tx_title_words": 7.0,
+        "tx_desc_len": 1160.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 16.0,
+        "tx_emojis": 10.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.2972027972027972,
+        "tx_cta": 3.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] bX9MxD5UKMk: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 3273.8,
+      "interval_low": 1240.2,
+      "interval_high": 9102.6,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.27,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.317
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.147
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.137
+        },
+        {
+          "factor": "tamanho da descrição",
+          "direction": "aumenta",
+          "weight": 0.097
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.076
+        }
+      ],
+      "explanation": "Previsão de ~3.274 curtidas em 60 dias (intervalo de 80%: 1.240 a 9.103), 1,27× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); duração do vídeo (aumenta); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "HkSBqSSyS5s",
+          "url": "https://www.youtube.com/shorts/HkSBqSSyS5s",
+          "title": "HBD, Insiders!",
+          "likes": 300,
+          "relative_to_channel": 0.33,
+          "similarity": 0.741
+        },
+        {
+          "post_id": "8sXd0sShkUo",
+          "url": "https://www.youtube.com/shorts/8sXd0sShkUo",
+          "title": "Caught in a web @giulio.schettini.mua⁠ 🕸️",
+          "likes": 36,
+          "relative_to_channel": 0.74,
+          "similarity": 0.726
+        },
+        {
+          "post_id": "MfYtGcKW5_Q",
+          "url": "https://www.youtube.com/shorts/MfYtGcKW5_Q",
+          "title": "Full face of Huda Beauty by @adele.maina. and we’re obsessed! Who else loves #ASMR #hudabeauty",
+          "likes": 2383,
+          "relative_to_channel": 1.57,
+          "similarity": 0.713
+        },
+        {
+          "post_id": "VR0JOzfI4bg",
+          "url": "https://www.youtube.com/shorts/VR0JOzfI4bg",
+          "title": "The brow duo of our dreams 💫 @nessa.torr",
+          "likes": 26,
+          "relative_to_channel": 0.83,
+          "similarity": 0.703
+        },
+        {
+          "post_id": "mUeN2g6HVsI",
+          "url": "https://www.youtube.com/shorts/mUeN2g6HVsI",
+          "title": "This moment with Rihanna & @iamScottEvans from #accesshollywood 😂",
+          "likes": 8961,
+          "relative_to_channel": 5.13,
+          "similarity": 0.692
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.852548669694734,
+        "ch_mean_prev5": 7.917500608669056,
+        "ch_mean_prev20": 7.993871667276361,
+        "ch_std_prev20": 0.5564513357256192,
+        "ch_trend": -0.07637105860730475,
+        "ch_last": 8.190354403763262,
+        "ch_days_since_last": 3.000208333333333,
+        "ch_posts_30d": 4.0,
+        "ch_log_subs": 14.855787622976248,
+        "ch_log_videos": 7.699389406256737,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 17.0,
+        "tm_weekday": 4.0,
+        "tm_weekend": 0.0,
+        "tm_month": 7.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 97.0,
+        "tx_title_len": 49.0,
+        "tx_title_words": 9.0,
+        "tx_desc_len": 1205.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 16.0,
+        "tx_emojis": 10.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.27422907488986786,
+        "tx_cta": 3.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] vuq8vBM-lLk: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    },
+    {
+      "predicted_metric": 3425.8,
+      "interval_low": 1258.3,
+      "interval_high": 8861.6,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 1.33,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.312
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "aumenta",
+          "weight": 0.235
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "aumenta",
+          "weight": 0.135
+        },
+        {
+          "factor": "tamanho da descrição",
+          "direction": "aumenta",
+          "weight": 0.07
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.04
+        }
+      ],
+      "explanation": "Previsão de ~3.426 curtidas em 60 dias (intervalo de 80%: 1.258 a 8.862), 1,33× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (reduz); duração do vídeo (aumenta); desempenho do post anterior (aumenta).",
+      "comparables": [
+        {
+          "post_id": "8sXd0sShkUo",
+          "url": "https://www.youtube.com/shorts/8sXd0sShkUo",
+          "title": "Caught in a web @giulio.schettini.mua⁠ 🕸️",
+          "likes": 36,
+          "relative_to_channel": 0.74,
+          "similarity": 0.753
+        },
+        {
+          "post_id": "HkSBqSSyS5s",
+          "url": "https://www.youtube.com/shorts/HkSBqSSyS5s",
+          "title": "HBD, Insiders!",
+          "likes": 300,
+          "relative_to_channel": 0.33,
+          "similarity": 0.748
+        },
+        {
+          "post_id": "VR0JOzfI4bg",
+          "url": "https://www.youtube.com/shorts/VR0JOzfI4bg",
+          "title": "The brow duo of our dreams 💫 @nessa.torr",
+          "likes": 26,
+          "relative_to_channel": 0.83,
+          "similarity": 0.747
+        },
+        {
+          "post_id": "MfYtGcKW5_Q",
+          "url": "https://www.youtube.com/shorts/MfYtGcKW5_Q",
+          "title": "Full face of Huda Beauty by @adele.maina. and we’re obsessed! Who else loves #ASMR #hudabeauty",
+          "likes": 2383,
+          "relative_to_channel": 1.57,
+          "similarity": 0.724
+        },
+        {
+          "post_id": "zIL_6bNiATg",
+          "url": "https://www.youtube.com/shorts/zIL_6bNiATg",
+          "title": "e.l.f Made a HUGE mistake - full video on my youtube now!",
+          "likes": 1453,
+          "relative_to_channel": 0.52,
+          "similarity": 0.704
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 7.852548669694734,
+        "ch_mean_prev5": 7.917500608669056,
+        "ch_mean_prev20": 7.993871667276361,
+        "ch_std_prev20": 0.5564513357256192,
+        "ch_trend": -0.07637105860730475,
+        "ch_last": 8.190354403763262,
+        "ch_days_since_last": 9.006550925925925,
+        "ch_posts_30d": 4.0,
+        "ch_log_subs": 14.855787622976248,
+        "ch_log_videos": 7.699389406256737,
+        "ch_is_brand": 0.0,
+        "ch_lang_br": 1.0,
+        "sector": "beleza",
+        "tm_hour": 17.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 7.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 134.0,
+        "tx_title_len": 43.0,
+        "tx_title_words": 8.0,
+        "tx_desc_len": 1152.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 16.0,
+        "tx_emojis": 11.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.294049008168028,
+        "tx_cta": 3.0
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "não foi possível processar o vídeo (ERROR: [youtube] T6IoO5QPdQQ: Sign in to confirm you’re not a bot. Use --cookies); previsão usa canal, tempo e texto",
+        "criativo sem vídeo processado: previsão usa canal, tempo e texto"
+      ]
+    }
+  ]
+}

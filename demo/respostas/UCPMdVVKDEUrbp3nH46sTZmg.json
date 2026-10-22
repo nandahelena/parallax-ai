@@ -1,0 +1,695 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/kBrX-DQ_oa0",
+      "predicted_metric": 377.0,
+      "interval_low": 96.4,
+      "interval_high": 1242.8,
+      "relative_to_channel": 0.86
+    },
+    {
+      "posicao": 2,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/6M9UfBYNFdQ",
+      "predicted_metric": 300.3,
+      "interval_low": 105.8,
+      "interval_high": 1106.7,
+      "relative_to_channel": 0.69
+    },
+    {
+      "posicao": 3,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/pDLCxm-Ic5E",
+      "predicted_metric": 283.4,
+      "interval_low": 91.5,
+      "interval_high": 1200.8,
+      "relative_to_channel": 0.65
+    },
+    {
+      "posicao": 4,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/1kDY7YUbxlc",
+      "predicted_metric": 216.4,
+      "interval_low": 80.7,
+      "interval_high": 1106.3,
+      "relative_to_channel": 0.5
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.567,
+  "previsoes": [
+    {
+      "predicted_metric": 283.4,
+      "interval_low": 91.5,
+      "interval_high": 1200.8,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 0.65,
+      "top_drivers": [
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.173
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.135
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.102
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "reduz",
+          "weight": -0.099
+        },
+        {
+          "factor": "tamanho do acervo do canal",
+          "direction": "reduz",
+          "weight": -0.056
+        }
+      ],
+      "explanation": "Previsão de ~283 curtidas em 60 dias (intervalo de 80%: 92 a 1.201), 0,65× a mediana recente do canal. Fatores que mais pesaram: tendência recente do canal (reduz); tema e conteúdo da legenda (reduz); patamar recente de curtidas do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "vsxoN1WBsfM",
+          "url": "https://www.youtube.com/shorts/vsxoN1WBsfM",
+          "title": "GWM ORA 5: tecnologia na sua mão com Coffee OS3 e tela 14,6”",
+          "likes": 344,
+          "relative_to_channel": 1.28,
+          "similarity": 0.71
+        },
+        {
+          "post_id": "D4xLQ8aAdyg",
+          "url": "https://www.youtube.com/shorts/D4xLQ8aAdyg",
+          "title": "The New Electric C-Class Is Here!",
+          "likes": 1587,
+          "relative_to_channel": 0.43,
+          "similarity": 0.693
+        },
+        {
+          "post_id": "OugGDGpQT-g",
+          "url": "https://www.youtube.com/shorts/OugGDGpQT-g",
+          "title": "#EV6",
+          "likes": 29,
+          "relative_to_channel": 0.75,
+          "similarity": 0.685
+        },
+        {
+          "post_id": "dwcsxHi2ZzQ",
+          "url": "https://www.youtube.com/shorts/dwcsxHi2ZzQ",
+          "title": "The all-new Rivian R2 is one incredible EV",
+          "likes": 11120,
+          "relative_to_channel": 1.89,
+          "similarity": 0.673
+        },
+        {
+          "post_id": "d4s0c2DhU7g",
+          "url": "https://www.youtube.com/shorts/d4s0c2DhU7g",
+          "title": "New 911 Turbo S true power revealed!",
+          "likes": 25699,
+          "relative_to_channel": 3.06,
+          "similarity": 0.652
+        },
+        {
+          "post_id": "dXTLwKw-XJU",
+          "url": "https://www.youtube.com/shorts/dXTLwKw-XJU",
+          "title": "Novo GWM ORA 5: Experiência Conectada com o App MY GWM",
+          "likes": 818,
+          "relative_to_channel": 0.42,
+          "similarity": 0.635
+        },
+        {
+          "post_id": "8MmNOVxN8eg",
+          "url": "https://www.youtube.com/shorts/8MmNOVxN8eg",
+          "title": "O MG4 Urban chegou pra entrar na disputa dos elétricos compactos? 👀",
+          "likes": 112,
+          "relative_to_channel": 2.22,
+          "similarity": 0.61
+        },
+        {
+          "post_id": "uI1uB2S3jO4",
+          "url": "https://www.youtube.com/shorts/uI1uB2S3jO4",
+          "title": "Dirigir o GAC Aion UT é exatamente o que você espera de um hatch elétr... #Shorts",
+          "likes": 591,
+          "relative_to_channel": 1.57,
+          "similarity": 0.61
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.084123079994859,
+        "ch_mean_prev5": 5.498804805559767,
+        "ch_mean_prev20": 6.24007995410754,
+        "ch_std_prev20": 0.9303335145486618,
+        "ch_trend": -0.7412751485477731,
+        "ch_last": 5.8998973535824915,
+        "ch_days_since_last": 1.9546875,
+        "ch_posts_30d": 6.0,
+        "ch_log_subs": 11.751950239425476,
+        "ch_log_videos": 5.749392985908253,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "automotivo",
+        "tm_hour": 15.0,
+        "tm_weekday": 4.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 47.0,
+        "tx_title_len": 19.0,
+        "tx_title_words": 4.0,
+        "tx_desc_len": 156.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 1.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.09774436090225563,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 46.125,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 24.0,
+        "midia_vd_motion_mean": 2.1481926441192627,
+        "midia_vd_motion_std": 2.3687379360198975,
+        "midia_vd_brilho": 207.7195046657986,
+        "midia_vd_contraste": 27.53422372308066,
+        "midia_vd_saturacao": 4.383767361111111,
+        "midia_vd_colorfulness": 13.269123021115595,
+        "midia_vd_hue_dom": 3.0,
+        "midia_vd_cortes": 10.0,
+        "midia_vd_cortes_por_s": 0.21680216802168023,
+        "midia_fc_max": 0.0,
+        "midia_fc_frac_frames": 0.0,
+        "midia_fc_area_max": 0.0,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 10.0,
+        "midia_oc_area": 0.03850694444444445,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 0.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.0,
+        "midia_au_rms_mean": 0.3001793622970581,
+        "midia_au_rms_std": 0.1644069105386734,
+        "midia_au_silencio": 0.039045553145336226,
+        "midia_au_flatness": 0.34754475951194763,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 300.3,
+      "interval_low": 105.8,
+      "interval_high": 1106.7,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.69,
+      "top_drivers": [
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.136
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "reduz",
+          "weight": -0.109
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.103
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.075
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.063
+        }
+      ],
+      "explanation": "Previsão de ~300 curtidas em 60 dias (intervalo de 80%: 106 a 1.107), 0,69× a mediana recente do canal. Fatores que mais pesaram: tendência recente do canal (reduz); inscritos do canal (reduz); tema e conteúdo da legenda (reduz).",
+      "comparables": [
+        {
+          "post_id": "qzGe15wJnNQ",
+          "url": "https://www.youtube.com/shorts/qzGe15wJnNQ",
+          "title": "360 cam giving us all the angles 🤩",
+          "likes": 2578,
+          "relative_to_channel": 0.84,
+          "similarity": 0.687
+        },
+        {
+          "post_id": "SYj83L9qsOg",
+          "url": "https://www.youtube.com/shorts/SYj83L9qsOg",
+          "title": "Hidaka Explorer 2025 Ep 06 mostra o Barco Zaltana e o Mirante do Gavião. #Mitsubishi #4x4éMitsubishi",
+          "likes": 31,
+          "relative_to_channel": 0.14,
+          "similarity": 0.585
+        },
+        {
+          "post_id": "jhwwmFeJ04c",
+          "url": "https://www.youtube.com/shorts/jhwwmFeJ04c",
+          "title": "We Need a Rivian R2X ASAP",
+          "likes": 994,
+          "relative_to_channel": 0.25,
+          "similarity": 0.583
+        },
+        {
+          "post_id": "j-KvyhUCWUw",
+          "url": "https://www.youtube.com/shorts/j-KvyhUCWUw",
+          "title": "Click to explore",
+          "likes": 173,
+          "relative_to_channel": 1.52,
+          "similarity": 0.563
+        },
+        {
+          "post_id": "Rm-9lKkRnG8",
+          "url": "https://www.youtube.com/shorts/Rm-9lKkRnG8",
+          "title": "Novo GWM Haval H6: Conheça o sistema de câmeras 540° e detecção inteligente de obstáculos.",
+          "likes": 112132,
+          "relative_to_channel": 15.54,
+          "similarity": 0.554
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.084123079994859,
+        "ch_mean_prev5": 5.498804805559767,
+        "ch_mean_prev20": 6.24007995410754,
+        "ch_std_prev20": 0.9303335145486618,
+        "ch_trend": -0.7412751485477731,
+        "ch_last": 5.8998973535824915,
+        "ch_days_since_last": 6.206354166666666,
+        "ch_posts_30d": 6.0,
+        "ch_log_subs": 11.751950239425476,
+        "ch_log_videos": 5.749392985908253,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "automotivo",
+        "tm_hour": 21.0,
+        "tm_weekday": 1.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 13.0,
+        "tx_title_len": 27.0,
+        "tx_title_words": 6.0,
+        "tx_desc_len": 262.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.06278026905829596,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 12.637625,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 23.976023976023978,
+        "midia_vd_motion_mean": 1.852953314781189,
+        "midia_vd_motion_std": 1.245154857635498,
+        "midia_vd_brilho": 122.62144476996528,
+        "midia_vd_contraste": 62.07165491729215,
+        "midia_vd_saturacao": 33.45509331597222,
+        "midia_vd_colorfulness": 11.503525037792063,
+        "midia_vd_hue_dom": 6.0,
+        "midia_vd_cortes": 6.0,
+        "midia_vd_cortes_por_s": 0.47477275200047475,
+        "midia_fc_max": 0.0,
+        "midia_fc_frac_frames": 0.0,
+        "midia_fc_area_max": 0.0,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 0.0,
+        "midia_oc_area": 0.0,
+        "midia_oc_tem_texto": 0.0,
+        "midia_ob_pessoas": 0.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.5,
+        "midia_au_rms_mean": 0.11309825628995895,
+        "midia_au_rms_std": 0.047009505331516266,
+        "midia_au_silencio": 0.007874015748031496,
+        "midia_au_flatness": 0.46884822845458984,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 377.0,
+      "interval_low": 96.4,
+      "interval_high": 1242.8,
+      "confidence_flag": false,
+      "confidence_reasons": [],
+      "relative_to_channel": 0.86,
+      "top_drivers": [
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.176
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.164
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "reduz",
+          "weight": -0.098
+        },
+        {
+          "factor": "tamanho do acervo do canal",
+          "direction": "reduz",
+          "weight": -0.071
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.066
+        }
+      ],
+      "explanation": "Previsão de ~377 curtidas em 60 dias (intervalo de 80%: 96 a 1.243), 0,86× a mediana recente do canal. Fatores que mais pesaram: tema e conteúdo da legenda (aumenta); tendência recente do canal (reduz); inscritos do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "qhb5ez37lo4",
+          "url": "https://www.youtube.com/shorts/qhb5ez37lo4",
+          "title": "A Mural Project with bZ4X | Toyota",
+          "likes": 89,
+          "relative_to_channel": 0.19,
+          "similarity": 0.56
+        },
+        {
+          "post_id": "miYV_TGjJdw",
+          "url": "https://www.youtube.com/shorts/miYV_TGjJdw",
+          "title": "Descubra as novas cores disponíveis para o ORA 03 BEV58",
+          "likes": 766,
+          "relative_to_channel": 1.29,
+          "similarity": 0.553
+        },
+        {
+          "post_id": "Rq8ZmS39pmE",
+          "url": "https://www.youtube.com/shorts/Rq8ZmS39pmE",
+          "title": "GWM ORA 03 BEV58 em duas novas cores: Azul Electric e Cinza Zenith.",
+          "likes": 7573,
+          "relative_to_channel": 10.98,
+          "similarity": 0.538
+        },
+        {
+          "post_id": "tAYR4wkk4GQ",
+          "url": "https://www.youtube.com/shorts/tAYR4wkk4GQ",
+          "title": "Luz verde pra um conteúdo que quase ninguém viu! 👀😍",
+          "likes": 64,
+          "relative_to_channel": 0.34,
+          "similarity": 0.531
+        },
+        {
+          "post_id": "kGq1fe9H_oM",
+          "url": "https://www.youtube.com/shorts/kGq1fe9H_oM",
+          "title": "From 3,000 feet of Rocky Mountain elevation, Ben Westby takes on the Ford Electric Lightning Round.",
+          "likes": 169,
+          "relative_to_channel": 0.9,
+          "similarity": 0.526
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.084123079994859,
+        "ch_mean_prev5": 5.498804805559767,
+        "ch_mean_prev20": 6.24007995410754,
+        "ch_std_prev20": 0.9303335145486618,
+        "ch_trend": -0.7412751485477731,
+        "ch_last": 5.8998973535824915,
+        "ch_days_since_last": 6.9312962962962965,
+        "ch_posts_30d": 6.0,
+        "ch_log_subs": 11.751950239425476,
+        "ch_log_videos": 5.749392985908253,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "automotivo",
+        "tm_hour": 14.0,
+        "tm_weekday": 2.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 9.0,
+        "tx_title_len": 26.0,
+        "tx_title_words": 6.0,
+        "tx_desc_len": 217.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.06951871657754011,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 8.800458333333333,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 23.976023976023978,
+        "midia_vd_motion_mean": 2.476212978363037,
+        "midia_vd_motion_std": 0.9687680602073669,
+        "midia_vd_brilho": 85.82412109375001,
+        "midia_vd_contraste": 59.21371816431642,
+        "midia_vd_saturacao": 91.08356716579861,
+        "midia_vd_colorfulness": 22.788416404717456,
+        "midia_vd_hue_dom": 2.0,
+        "midia_vd_cortes": 5.0,
+        "midia_vd_cortes_por_s": 0.5681522269199994,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.125,
+        "midia_fc_area_max": 0.0656640625,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 0.0,
+        "midia_oc_area": 0.0,
+        "midia_oc_tem_texto": 0.0,
+        "midia_ob_pessoas": 0.0,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 0.5,
+        "midia_au_rms_mean": 0.05557757616043091,
+        "midia_au_rms_std": 0.03344576060771942,
+        "midia_au_silencio": 0.01694915254237288,
+        "midia_au_flatness": 0.31943804025650024,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 216.4,
+      "interval_low": 80.7,
+      "interval_high": 1106.3,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 0.5,
+      "top_drivers": [
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.273
+        },
+        {
+          "factor": "tendência recente do canal",
+          "direction": "reduz",
+          "weight": -0.199
+        },
+        {
+          "factor": "inscritos do canal",
+          "direction": "reduz",
+          "weight": -0.101
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "reduz",
+          "weight": -0.092
+        },
+        {
+          "factor": "tamanho do acervo do canal",
+          "direction": "reduz",
+          "weight": -0.081
+        }
+      ],
+      "explanation": "Previsão de ~216 curtidas em 60 dias (intervalo de 80%: 81 a 1.106), 0,5× a mediana recente do canal. Fatores que mais pesaram: tema e conteúdo da legenda (reduz); tendência recente do canal (reduz); inscritos do canal (reduz).",
+      "comparables": [
+        {
+          "post_id": "3m0fqBmcLqU",
+          "url": "https://www.youtube.com/shorts/3m0fqBmcLqU",
+          "title": "Nova Triton e Inverno na Transamazônica",
+          "likes": 3599,
+          "relative_to_channel": 45.13,
+          "similarity": 0.686
+        },
+        {
+          "post_id": "RD0ayajFEfU",
+          "url": "https://www.youtube.com/shorts/RD0ayajFEfU",
+          "title": "Sertões: o habitat natural da Triton",
+          "likes": 73,
+          "relative_to_channel": 0.97,
+          "similarity": 0.644
+        },
+        {
+          "post_id": "eU603kn4VZI",
+          "url": "https://www.youtube.com/shorts/eU603kn4VZI",
+          "title": "A história da 49ª Seleção está apenas começando",
+          "likes": 4,
+          "relative_to_channel": 1.67,
+          "similarity": 0.571
+        },
+        {
+          "post_id": "jDFDkDaT9S4",
+          "url": "https://www.youtube.com/shorts/jDFDkDaT9S4",
+          "title": "Do Asfalto às galáxias - Novo Tiguan | VW Social",
+          "likes": 49,
+          "relative_to_channel": 1.45,
+          "similarity": 0.547
+        },
+        {
+          "post_id": "Nj5umjaOwGs",
+          "url": "https://www.youtube.com/shorts/Nj5umjaOwGs",
+          "title": "Is the new NISMO Armada the CrossCabriolet of our generation?",
+          "likes": 11410,
+          "relative_to_channel": 1.99,
+          "similarity": 0.547
+        },
+        {
+          "post_id": "wqBAhuhOPcU",
+          "url": "https://www.youtube.com/shorts/wqBAhuhOPcU",
+          "title": "140 Places World Tour reaches North America: NYC, Niagara Falls and Nashville and more! | #shorts",
+          "likes": 393,
+          "relative_to_channel": 0.53,
+          "similarity": 0.545
+        },
+        {
+          "post_id": "S1qj9CPqdoQ",
+          "url": "https://www.youtube.com/shorts/S1qj9CPqdoQ",
+          "title": "O MELHOR CITROËN DA ATUALIDADE?",
+          "likes": 1809,
+          "relative_to_channel": 1.22,
+          "similarity": 0.539
+        },
+        {
+          "post_id": "2bccoXlkJpQ",
+          "url": "https://www.youtube.com/shorts/2bccoXlkJpQ",
+          "title": "Fomos desafiados a viver um day off diferente… e a missão era simples: desacelerar em família. 🚗🌿",
+          "likes": 37,
+          "relative_to_channel": 1.73,
+          "similarity": 0.531
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 6.084123079994859,
+        "ch_mean_prev5": 5.498804805559767,
+        "ch_mean_prev20": 6.24007995410754,
+        "ch_std_prev20": 0.9303335145486618,
+        "ch_trend": -0.7412751485477731,
+        "ch_last": 5.8998973535824915,
+        "ch_days_since_last": 12.753402777777778,
+        "ch_posts_30d": 5.0,
+        "ch_log_subs": 11.751950239425476,
+        "ch_log_videos": 5.749392985908253,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 0.0,
+        "sector": "automotivo",
+        "tm_hour": 10.0,
+        "tm_weekday": 1.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 24.0,
+        "tx_title_len": 19.0,
+        "tx_title_words": 4.0,
+        "tx_desc_len": 137.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 1.0,
+        "tx_links": 0.0,
+        "tx_emojis": 1.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.07377049180327869,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 23.398374999999998,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 23.976023976023978,
+        "midia_vd_motion_mean": 1.4486172199249268,
+        "midia_vd_motion_std": 1.3403716087341309,
+        "midia_vd_brilho": 94.06187662760416,
+        "midia_vd_contraste": 45.66668382409918,
+        "midia_vd_saturacao": 68.31952582465277,
+        "midia_vd_colorfulness": 39.15158114465528,
+        "midia_vd_hue_dom": 0.0,
+        "midia_vd_cortes": 5.0,
+        "midia_vd_cortes_por_s": 0.2136900532622458,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.375,
+        "midia_fc_area_max": 0.07448350694444444,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 9.0,
+        "midia_oc_area": 0.01972222222222222,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 2.0,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 3.0,
+        "midia_au_rms_mean": 0.02252860926091671,
+        "midia_au_rms_std": 0.021509205922484398,
+        "midia_au_silencio": 0.39658848614072495,
+        "midia_au_flatness": 0.34358805418014526,
+        "midia_au_fala_frac": 1.0043432503325553,
+        "midia_au_palavras": 59.0,
+        "midia_au_palavras_por_s": 2.5215426284945,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": "Where does adventure begin? It can start anywhere, even in your imagination. What about you Margo? Well, a lot of doing places like, yeah, pretty much that way you go with it. It's kind of adventure. "
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    }
+  ]
+}

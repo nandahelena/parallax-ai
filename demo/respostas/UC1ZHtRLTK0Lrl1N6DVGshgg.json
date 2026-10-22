@@ -1,0 +1,747 @@
+{
+  "ranking": [
+    {
+      "posicao": 1,
+      "indice": 2,
+      "creative": "https://www.youtube.com/shorts/XQ4MGs3mDa8",
+      "predicted_metric": 171.1,
+      "interval_low": 13.6,
+      "interval_high": 564.4,
+      "relative_to_channel": 2.81
+    },
+    {
+      "posicao": 2,
+      "indice": 3,
+      "creative": "https://www.youtube.com/shorts/7Jg-49E5aGU",
+      "predicted_metric": 125.6,
+      "interval_low": 15.8,
+      "interval_high": 574.4,
+      "relative_to_channel": 2.07
+    },
+    {
+      "posicao": 3,
+      "indice": 1,
+      "creative": "https://www.youtube.com/shorts/OhAKjpQa1tY",
+      "predicted_metric": 75.1,
+      "interval_low": 18.4,
+      "interval_high": 582.9,
+      "relative_to_channel": 1.25
+    },
+    {
+      "posicao": 4,
+      "indice": 0,
+      "creative": "https://www.youtube.com/shorts/UclYgv9KNGg",
+      "predicted_metric": 64.0,
+      "interval_low": 14.9,
+      "interval_high": 333.5,
+      "relative_to_channel": 1.06
+    }
+  ],
+  "prob_primeiro_supera_segundo": 0.561,
+  "previsoes": [
+    {
+      "predicted_metric": 64.0,
+      "interval_low": 14.9,
+      "interval_high": 333.5,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 1.06,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.399
+        },
+        {
+          "factor": "instabilidade do canal",
+          "direction": "aumenta",
+          "weight": 0.296
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.25
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.247
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.128
+        }
+      ],
+      "explanation": "Previsão de ~64 curtidas em 60 dias (intervalo de 80%: 15 a 334), 1,06× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); instabilidade do canal (aumenta); tema e conteúdo da legenda (reduz).",
+      "comparables": [
+        {
+          "post_id": "nog-bSpWnZo",
+          "url": "https://www.youtube.com/shorts/nog-bSpWnZo",
+          "title": "Follow us on IG and be the first to find out. @HyundaiUSA",
+          "likes": 28,
+          "relative_to_channel": 0.52,
+          "similarity": 0.639
+        },
+        {
+          "post_id": "tvSOPo7UzEQ",
+          "url": "https://www.youtube.com/shorts/tvSOPo7UzEQ",
+          "title": "Vem dar um tour pelo estande da Geely no Festival Interlagos Carros 2026! 🚗🔥",
+          "likes": 62,
+          "relative_to_channel": 0.83,
+          "similarity": 0.634
+        },
+        {
+          "post_id": "X6TtIb-59Ao",
+          "url": "https://www.youtube.com/shorts/X6TtIb-59Ao",
+          "title": "Acelera que o Rally dos Sertões tá chegando",
+          "likes": 44,
+          "relative_to_channel": 0.79,
+          "similarity": 0.579
+        },
+        {
+          "post_id": "gakaQgTYrp4",
+          "url": "https://www.youtube.com/shorts/gakaQgTYrp4",
+          "title": "Saturday debrief wth OP 💬",
+          "likes": 1459,
+          "relative_to_channel": 0.48,
+          "similarity": 0.565
+        },
+        {
+          "post_id": "-aczAnKafQc",
+          "url": "https://www.youtube.com/shorts/-aczAnKafQc",
+          "title": "National Smoothie Day mandatory video 🥤",
+          "likes": 8694,
+          "relative_to_channel": 4.17,
+          "similarity": 0.557
+        },
+        {
+          "post_id": "AWxRm7njNf4",
+          "url": "https://www.youtube.com/shorts/AWxRm7njNf4",
+          "title": "Switzerland and Sweden. It’s an easy mistake to make. Get ready for Route EX90, going live Dec 10.",
+          "likes": 244,
+          "relative_to_channel": 0.81,
+          "similarity": 0.547
+        },
+        {
+          "post_id": "KQxF1Wqp-GQ",
+          "url": "https://www.youtube.com/shorts/KQxF1Wqp-GQ",
+          "title": "O som de uma era! @PaolaCarrijo #Honda #AyrtonSennaRacingDay",
+          "likes": 41,
+          "relative_to_channel": 1.53,
+          "similarity": 0.492
+        },
+        {
+          "post_id": "KaQhoIFupWQ",
+          "url": "https://www.youtube.com/shorts/KaQhoIFupWQ",
+          "title": "Clientes GWM conhecem de perto toda a linha no Festival Interlagos",
+          "likes": 28,
+          "relative_to_channel": 0.73,
+          "similarity": 0.486
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 4.113420445204289,
+        "ch_mean_prev5": 5.620648007402477,
+        "ch_mean_prev20": 6.009338677136719,
+        "ch_std_prev20": 3.3118409230597563,
+        "ch_trend": -0.3886906697342418,
+        "ch_last": 2.8903717578961645,
+        "ch_days_since_last": 9.925439814814816,
+        "ch_posts_30d": 5.0,
+        "ch_log_subs": 13.765270393051685,
+        "ch_log_videos": 6.342121418721152,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 18.0,
+        "tm_weekday": 3.0,
+        "tm_weekend": 0.0,
+        "tm_month": 6.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 13.0,
+        "tx_title_len": 57.0,
+        "tx_title_words": 10.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 1.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 2.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.09090909090909091,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 12.866666666666667,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 30.0,
+        "midia_vd_motion_mean": 3.422720432281494,
+        "midia_vd_motion_std": 1.369640827178955,
+        "midia_vd_brilho": 150.64005913628472,
+        "midia_vd_contraste": 54.88038864362029,
+        "midia_vd_saturacao": 76.17119411892361,
+        "midia_vd_colorfulness": 58.60152794963857,
+        "midia_vd_hue_dom": 11.0,
+        "midia_vd_cortes": 10.0,
+        "midia_vd_cortes_por_s": 0.7772020725388601,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.375,
+        "midia_fc_area_max": 0.05444444444444444,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 79.0,
+        "midia_oc_area": 0.15013594465351143,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 3.0,
+        "midia_ob_veiculo": 0.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 3.0,
+        "midia_au_rms_mean": 0.23204362392425537,
+        "midia_au_rms_std": 0.11326129734516144,
+        "midia_au_silencio": 0.011627906976744186,
+        "midia_au_flatness": 0.5241396427154541,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 75.1,
+      "interval_low": 18.4,
+      "interval_high": 582.9,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 1.25,
+      "top_drivers": [
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.397
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.275
+        },
+        {
+          "factor": "instabilidade do canal",
+          "direction": "aumenta",
+          "weight": 0.245
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "reduz",
+          "weight": -0.205
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.118
+        }
+      ],
+      "explanation": "Previsão de ~75 curtidas em 60 dias (intervalo de 80%: 18 a 583), 1,25× a mediana recente do canal. Fatores que mais pesaram: patamar recente de curtidas do canal (aumenta); desempenho do post anterior (reduz); instabilidade do canal (aumenta).",
+      "comparables": [
+        {
+          "post_id": "89eEPIIjWBM",
+          "url": "https://www.youtube.com/shorts/89eEPIIjWBM",
+          "title": "Always shining, despite the rain - the Mercedes-Benz 190 E | #shorts",
+          "likes": 733,
+          "relative_to_channel": 1.53,
+          "similarity": 0.66
+        },
+        {
+          "post_id": "Tat2j6SaAZs",
+          "url": "https://www.youtube.com/shorts/Tat2j6SaAZs",
+          "title": "A new day with the new C-Class Sedan | #shorts",
+          "likes": 1121,
+          "relative_to_channel": 1.83,
+          "similarity": 0.648
+        },
+        {
+          "post_id": "Izujd9Jnsog",
+          "url": "https://www.youtube.com/shorts/Izujd9Jnsog",
+          "title": "The brightest moments in Audi’s past have involved daring leaps of imagination and ingenuity.",
+          "likes": 431,
+          "relative_to_channel": 1.03,
+          "similarity": 0.62
+        },
+        {
+          "post_id": "U2KINp9aQvI",
+          "url": "https://www.youtube.com/shorts/U2KINp9aQvI",
+          "title": "Strive for clarity: the new Audi Concept C​",
+          "likes": 374,
+          "relative_to_channel": 0.78,
+          "similarity": 0.611
+        },
+        {
+          "post_id": "7jdvxvzgujQ",
+          "url": "https://www.youtube.com/shorts/7jdvxvzgujQ",
+          "title": "Coming soon: the new Volvo ES90. Our new spacious sedan in a sleek silhouette.",
+          "likes": 495,
+          "relative_to_channel": 2.08,
+          "similarity": 0.605
+        },
+        {
+          "post_id": "0-0-KMIBQUk",
+          "url": "https://www.youtube.com/shorts/0-0-KMIBQUk",
+          "title": "O Fiat Coupé já chamava atenção pelo desenho. Mas essa versão 20V Turb... #Shorts",
+          "likes": 968,
+          "relative_to_channel": 2.67,
+          "similarity": 0.604
+        },
+        {
+          "post_id": "482jcWPN800",
+          "url": "https://www.youtube.com/shorts/482jcWPN800",
+          "title": "A true moment of dedication.",
+          "likes": 934,
+          "relative_to_channel": 1.11,
+          "similarity": 0.598
+        },
+        {
+          "post_id": "ZYaoDOuGiyA",
+          "url": "https://www.youtube.com/shorts/ZYaoDOuGiyA",
+          "title": "COMO É DIRIGIR UM VW POLO 1975!",
+          "likes": 1191,
+          "relative_to_channel": 2.14,
+          "similarity": 0.593
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 4.113420445204289,
+        "ch_mean_prev5": 5.620648007402477,
+        "ch_mean_prev20": 6.009338677136719,
+        "ch_std_prev20": 3.3118409230597563,
+        "ch_trend": -0.3886906697342418,
+        "ch_last": 2.8903717578961645,
+        "ch_days_since_last": 27.7353125,
+        "ch_posts_30d": 2.0,
+        "ch_log_subs": 13.765270393051685,
+        "ch_log_videos": 6.342121418721152,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 14.0,
+        "tm_weekday": 0.0,
+        "tm_weekend": 0.0,
+        "tm_month": 7.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 22.0,
+        "tx_title_len": 16.0,
+        "tx_title_words": 2.0,
+        "tx_desc_len": 134.0,
+        "tx_hashtags": 4.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.05172413793103448,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 21.31295833333333,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 23.976023976023978,
+        "midia_vd_motion_mean": 1.5619878768920898,
+        "midia_vd_motion_std": 2.166569232940674,
+        "midia_vd_brilho": 122.29965983072917,
+        "midia_vd_contraste": 53.58612862443695,
+        "midia_vd_saturacao": 84.35603678385417,
+        "midia_vd_colorfulness": 44.5951121424336,
+        "midia_vd_hue_dom": 6.0,
+        "midia_vd_cortes": 7.0,
+        "midia_vd_cortes_por_s": 0.3284386846030682,
+        "midia_fc_max": 1.0,
+        "midia_fc_frac_frames": 0.25,
+        "midia_fc_area_max": 0.0937890625,
+        "midia_fc_no_gancho": 1.0,
+        "midia_oc_chars": 26.0,
+        "midia_oc_area": 0.03984375,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 0.5,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.5,
+        "midia_au_rms_mean": 0.13578030467033386,
+        "midia_au_rms_std": 0.07077260315418243,
+        "midia_au_silencio": 0.03981264637002342,
+        "midia_au_flatness": 0.4427092969417572,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 171.1,
+      "interval_low": 13.6,
+      "interval_high": 564.4,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 2.81,
+      "top_drivers": [
+        {
+          "factor": "instabilidade do canal",
+          "direction": "aumenta",
+          "weight": 0.495
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.373
+        },
+        {
+          "factor": "dias desde o último post",
+          "direction": "aumenta",
+          "weight": 0.236
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.214
+        },
+        {
+          "factor": "tema e conteúdo da legenda",
+          "direction": "aumenta",
+          "weight": 0.194
+        }
+      ],
+      "explanation": "Previsão de ~171 curtidas em 60 dias (intervalo de 80%: 14 a 564), 2,81× a mediana recente do canal. Fatores que mais pesaram: instabilidade do canal (aumenta); patamar recente de curtidas do canal (aumenta); dias desde o último post (aumenta).",
+      "comparables": [
+        {
+          "post_id": "uZjc5p466PE",
+          "url": "https://www.youtube.com/shorts/uZjc5p466PE",
+          "title": "We're off of Porsches... for now!",
+          "likes": 4410,
+          "relative_to_channel": 1.19,
+          "similarity": 0.833
+        },
+        {
+          "post_id": "OnNMcdarewg",
+          "url": "https://www.youtube.com/shorts/OnNMcdarewg",
+          "title": "Seminovos Honda",
+          "likes": 32,
+          "relative_to_channel": 0.93,
+          "similarity": 0.83
+        },
+        {
+          "post_id": "wqNJ5eK8fjI",
+          "url": "https://www.youtube.com/shorts/wqNJ5eK8fjI",
+          "title": "Geely revela seu primeiro SUV da parceria com a Renault!",
+          "likes": 215,
+          "relative_to_channel": 0.21,
+          "similarity": 0.827
+        },
+        {
+          "post_id": "oRoTbogaXjQ",
+          "url": "https://www.youtube.com/shorts/oRoTbogaXjQ",
+          "title": "Seminovo Honda é a melhor opção! 🚗✨",
+          "likes": 23,
+          "relative_to_channel": 0.62,
+          "similarity": 0.824
+        },
+        {
+          "post_id": "nGmGWLYtqtc",
+          "url": "https://www.youtube.com/shorts/nGmGWLYtqtc",
+          "title": "There's truly no substitute for a Porsche! 🔥",
+          "likes": 4963,
+          "relative_to_channel": 0.49,
+          "similarity": 0.821
+        },
+        {
+          "post_id": "p3ln547Pn5k",
+          "url": "https://www.youtube.com/shorts/p3ln547Pn5k",
+          "title": "There's a New Porsche SUV Coming",
+          "likes": 2359,
+          "relative_to_channel": 0.44,
+          "similarity": 0.803
+        },
+        {
+          "post_id": "u58KD7Jyoqg",
+          "url": "https://www.youtube.com/shorts/u58KD7Jyoqg",
+          "title": "This Porsche is a cheat code!",
+          "likes": 18476,
+          "relative_to_channel": 2.28,
+          "similarity": 0.793
+        },
+        {
+          "post_id": "Pgjrsym78d0",
+          "url": "https://www.youtube.com/shorts/Pgjrsym78d0",
+          "title": "O Renault Kardian ganhou uma versão de entrada que mexe justamente nos... #Shorts",
+          "likes": 436,
+          "relative_to_channel": 1.41,
+          "similarity": 0.792
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 4.113420445204289,
+        "ch_mean_prev5": 5.620648007402477,
+        "ch_mean_prev20": 6.009338677136719,
+        "ch_std_prev20": 3.3118409230597563,
+        "ch_trend": -0.3886906697342418,
+        "ch_last": 2.8903717578961645,
+        "ch_days_since_last": 80.80328703703704,
+        "ch_posts_30d": 0.0,
+        "ch_log_subs": 13.765270393051685,
+        "ch_log_videos": 6.342121418721152,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 15.0,
+        "tm_weekday": 4.0,
+        "tm_weekend": 0.0,
+        "tm_month": 8.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 15.0,
+        "tx_title_len": 67.0,
+        "tx_title_words": 13.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.037037037037037035,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 15.0,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 25.0,
+        "midia_vd_motion_mean": 4.778079986572266,
+        "midia_vd_motion_std": 1.395302176475525,
+        "midia_vd_brilho": 80.95386121961806,
+        "midia_vd_contraste": 41.46942524377758,
+        "midia_vd_saturacao": 68.821923828125,
+        "midia_vd_colorfulness": 40.21969285879467,
+        "midia_vd_hue_dom": 6.0,
+        "midia_vd_cortes": 8.0,
+        "midia_vd_cortes_por_s": 0.5333333333333333,
+        "midia_fc_max": 0.0,
+        "midia_fc_frac_frames": 0.0,
+        "midia_fc_area_max": 0.0,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 4.0,
+        "midia_oc_area": 0.003430555398255011,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 0.0,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 1.0,
+        "midia_au_rms_mean": 0.2350422739982605,
+        "midia_au_rms_std": 0.06766743957996368,
+        "midia_au_silencio": 0.0,
+        "midia_au_flatness": 0.42970722913742065,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    },
+    {
+      "predicted_metric": 125.6,
+      "interval_low": 15.8,
+      "interval_high": 574.4,
+      "confidence_flag": true,
+      "confidence_reasons": [
+        "intervalo mais largo que 80% das previsões de validação"
+      ],
+      "relative_to_channel": 2.07,
+      "top_drivers": [
+        {
+          "factor": "instabilidade do canal",
+          "direction": "aumenta",
+          "weight": 0.466
+        },
+        {
+          "factor": "patamar recente de curtidas do canal",
+          "direction": "aumenta",
+          "weight": 0.393
+        },
+        {
+          "factor": "desempenho do post anterior",
+          "direction": "reduz",
+          "weight": -0.236
+        },
+        {
+          "factor": "dias desde o último post",
+          "direction": "aumenta",
+          "weight": 0.207
+        },
+        {
+          "factor": "duração do vídeo",
+          "direction": "reduz",
+          "weight": -0.124
+        }
+      ],
+      "explanation": "Previsão de ~126 curtidas em 60 dias (intervalo de 80%: 16 a 574), 2,07× a mediana recente do canal. Fatores que mais pesaram: instabilidade do canal (aumenta); patamar recente de curtidas do canal (aumenta); desempenho do post anterior (reduz).",
+      "comparables": [
+        {
+          "post_id": "hNVojlQhsv0",
+          "url": "https://www.youtube.com/shorts/hNVojlQhsv0",
+          "title": "Audi Q7 V12 TDI, the smoothest diesel engine out there!",
+          "likes": 9142,
+          "relative_to_channel": 1.25,
+          "similarity": 0.879
+        },
+        {
+          "post_id": "iJ80iJI5oEI",
+          "url": "https://www.youtube.com/shorts/iJ80iJI5oEI",
+          "title": "This Peugeot has Mercedes levels of luxury!",
+          "likes": 13770,
+          "relative_to_channel": 2.13,
+          "similarity": 0.86
+        },
+        {
+          "post_id": "Pgjrsym78d0",
+          "url": "https://www.youtube.com/shorts/Pgjrsym78d0",
+          "title": "O Renault Kardian ganhou uma versão de entrada que mexe justamente nos... #Shorts",
+          "likes": 436,
+          "relative_to_channel": 1.41,
+          "similarity": 0.859
+        },
+        {
+          "post_id": "wq_bGbp121s",
+          "url": "https://www.youtube.com/shorts/wq_bGbp121s",
+          "title": "The Volvo 850 T-5R Is an Ultra-Cool Fast Wagon",
+          "likes": 1736,
+          "relative_to_channel": 0.32,
+          "similarity": 0.855
+        },
+        {
+          "post_id": "0Jo0bcpGjS4",
+          "url": "https://www.youtube.com/shorts/0Jo0bcpGjS4",
+          "title": "The Volvo EX60 Is a Totally New All-Electric Luxury SUV",
+          "likes": 1322,
+          "relative_to_channel": 0.48,
+          "similarity": 0.854
+        },
+        {
+          "post_id": "XK2F8bJrAWM",
+          "url": "https://www.youtube.com/shorts/XK2F8bJrAWM",
+          "title": "O NOVO RENAULT KOLEOS",
+          "likes": 3600,
+          "relative_to_channel": 2.57,
+          "similarity": 0.852
+        },
+        {
+          "post_id": "VfwDEn_rNKg",
+          "url": "https://www.youtube.com/shorts/VfwDEn_rNKg",
+          "title": "A Chevrolet S10 Trail Boss chega para quem acha que uma picape pode ir... #Shorts",
+          "likes": 285,
+          "relative_to_channel": 0.84,
+          "similarity": 0.841
+        },
+        {
+          "post_id": "xtGgVTNnv_o",
+          "url": "https://www.youtube.com/shorts/xtGgVTNnv_o",
+          "title": "MOTIVOS PARA AMAR 🥰",
+          "likes": 58,
+          "relative_to_channel": 0.56,
+          "similarity": 0.836
+        }
+      ],
+      "features_used": {
+        "ch_n_prev": 60.0,
+        "ch_med_prev20": 4.113420445204289,
+        "ch_mean_prev5": 5.620648007402477,
+        "ch_mean_prev20": 6.009338677136719,
+        "ch_std_prev20": 3.3118409230597563,
+        "ch_trend": -0.3886906697342418,
+        "ch_last": 2.8903717578961645,
+        "ch_days_since_last": 85.5640162037037,
+        "ch_posts_30d": 0.0,
+        "ch_log_subs": 13.765270393051685,
+        "ch_log_videos": 6.342121418721152,
+        "ch_is_brand": 1.0,
+        "ch_lang_br": 1.0,
+        "sector": "automotivo",
+        "tm_hour": 9.0,
+        "tm_weekday": 2.0,
+        "tm_weekend": 0.0,
+        "tm_month": 9.0,
+        "tm_log_age_days": 4.0943445622221,
+        "md_duration_s": 22.0,
+        "tx_title_len": 48.0,
+        "tx_title_words": 8.0,
+        "tx_desc_len": 0.0,
+        "tx_hashtags": 0.0,
+        "tx_has_shorts_tag": 0.0,
+        "tx_mentions": 0.0,
+        "tx_links": 0.0,
+        "tx_emojis": 0.0,
+        "tx_question": 0.0,
+        "tx_exclaim": 0.0,
+        "tx_upper_ratio": 0.05128205128205128,
+        "tx_cta": 0.0,
+        "midia_vd_dur_s": 21.48,
+        "midia_vd_w": 360.0,
+        "midia_vd_h": 640.0,
+        "midia_vd_fps": 25.0,
+        "midia_vd_motion_mean": 4.447059631347656,
+        "midia_vd_motion_std": 1.910833716392517,
+        "midia_vd_brilho": 100.45380913628472,
+        "midia_vd_contraste": 49.77867214689755,
+        "midia_vd_saturacao": 51.23251302083333,
+        "midia_vd_colorfulness": 23.21173129387391,
+        "midia_vd_hue_dom": 6.0,
+        "midia_vd_cortes": 12.0,
+        "midia_vd_cortes_por_s": 0.5586592178770949,
+        "midia_fc_max": 0.0,
+        "midia_fc_frac_frames": 0.0,
+        "midia_fc_area_max": 0.0,
+        "midia_fc_no_gancho": 0.0,
+        "midia_oc_chars": 36.0,
+        "midia_oc_area": 0.05444878472222222,
+        "midia_oc_tem_texto": 1.0,
+        "midia_ob_pessoas": 0.0,
+        "midia_ob_veiculo": 1.0,
+        "midia_ob_bolsa": 0.0,
+        "midia_ob_n": 0.5,
+        "midia_au_rms_mean": 0.10211373120546341,
+        "midia_au_rms_std": 0.03647064045071602,
+        "midia_au_silencio": 0.03488372093023256,
+        "midia_au_flatness": 0.5120567083358765,
+        "midia_au_fala_frac": 0.0,
+        "midia_au_palavras": 0.0,
+        "midia_au_palavras_por_s": 0.0,
+        "midia_au_lang_pt": 0.0,
+        "midia_au_lang_en": 1.0,
+        "midia_transcricao": ""
+      },
+      "model_version": "parallax-v1 (base_v2 (coleta 15/10, estatísticas recoletadas em 16/10))",
+      "warnings": [
+        "atributos de vídeo extraídos para inspeção; o modelo v1 não os usa no número"
+      ]
+    }
+  ]
+}

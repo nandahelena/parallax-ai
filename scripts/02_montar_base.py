@@ -2,7 +2,7 @@
 
 Também fecha a curadoria: marca incluir/motivo por canal e sorteia (uma vez só) os canais de demo.
 
-    uv run python scripts/02_build_dataset.py [--coleta AAAA-MM-DD]
+    uv run python scripts/02_montar_base.py [--coleta AAAA-MM-DD]
 """
 
 import argparse
